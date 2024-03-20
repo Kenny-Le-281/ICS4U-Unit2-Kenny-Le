@@ -1,20 +1,33 @@
 /**
- * Bicycle Class.
- * author  Mr Coxall
- * version 1.0
- * since   2020-01-01
- */
+* This class creates a list of strings
+*
+* By:      Kenny LE
+* Version: 1.0
+* Since:   2024-03-07
+*/
 
-class Bicycle {
-  // the Bicycle class has
-  // three fields
-  cadence: number
-  gear: number
-  speed: number
+export class MrCoxallStack {
+  // Stack that contains all of the string
+  private stackAsList: string[]
 
-  // and 1 method
-  applyBrake(decrement: number): null {
-    this.speed -= decrement
+  // Creates the stack
+  public constructor() {
+    this.stackAsList = []
+  }
+
+  // Pushes the strings to the stack
+  public push(string: string) {
+    this.stackAsList.push(string)
+  }
+
+  // Prints the stack to the console
+  public showStack() {
+    let stackItems = this.stackAsList[0]
+
+    for (let counter = 1; counter < this.stackAsList.length; counter++) {
+      stackItems = stackItems + ", " + this.stackAsList[counter]
+    }
+
+    return stackItems
   }
 }
-export = Bicycle
