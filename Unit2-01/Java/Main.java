@@ -40,12 +40,21 @@ final class Main {
         colorStack.push("green");
         colorStack.push("blue");
 
+        // Add dog stack
+        final MrCoxallStack dogStack = new MrCoxallStack();
+        dogStack.push("poodle");
+        dogStack.push("retriever");
+        dogStack.push("beagle");
+
         // Show stack
         final String fruitStackValues = fruitStack.showStack();
         System.out.println("Fruit Items: " + fruitStackValues);
 
         final String colorStackValues = colorStack.showStack();
         System.out.println("Color items: " + colorStackValues);
+
+        final String dogStackValues = dogStack.showStack();
+        System.out.println("Dog items: " + dogStackValues);
 
         // Show the program as done
         System.out.println("\nDone.");
