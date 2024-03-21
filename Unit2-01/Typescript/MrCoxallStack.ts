@@ -16,8 +16,8 @@ export class MrCoxallStack {
   }
 
   // Pushes the values to the stack
-  public push(string: string) {
-    this.stackAsList.push(string)
+  public push(string: stringPushed) {
+    this.stackAsList.push(stringPushed)
   }
 
   // Returns the stack
