@@ -25,9 +25,9 @@ public class MrCoxallStack {
      * Initializes the stack with an empty ArrayList.
      *
     */
-     public MrCoxallStack() {
+    public MrCoxallStack() {
         this.stackAsList = new ArrayList<>();
-     }
+    }
 
     /**
      * Pushes the string to a list.

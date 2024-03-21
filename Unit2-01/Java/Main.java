@@ -6,8 +6,6 @@
 * @since   2024-03-08
 */
 
-import java.util.Scanner;
-
 /**
 * This is the program.
 */
