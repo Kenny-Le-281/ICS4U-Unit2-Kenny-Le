@@ -9,19 +9,23 @@
 import { MrCoxallStack } from './MrCoxallStack'
 import { createPrompt } from 'bun-promptx'
 
-const mrCoxallStack = new MrCoxallStack()
+const fruitStack = new MrCoxallStack()
+fruitStack.push("apple")
+fruitStack.push("banana")
+fruitStack.push("cherry")
 
-for (let counter = 0; counter < 3; counter++) {
-// String value
-  const string = createPrompt('Enter a string: ')
+const colorStack = new MrCoxallStack()
+colorStack.push("red")
+colorStack.push("green")
+colorStack.push("blue")
 
-  const stringValue = string.value
-  mrCoxallStack.push(stringValue)
-}
+// Shows the fruit stack items
+const fruitStackItems = fruitStack.showStack()
+console.log("Fruit items:", fruitStackItems)
 
-// Show the stack's value
-const stackItems = mrCoxallStack.showStack()
-console.log('Lock Combo: ', stackItems)
+// Shows the color stack items
+const colorStackItems = colorStack.showStack()
+console.log("Color items:", colorStackItems)
 
 // Show the program as done
 console.log('\nDone.')

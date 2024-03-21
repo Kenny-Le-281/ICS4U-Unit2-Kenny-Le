@@ -1,7 +1,7 @@
 /**
-* This class creates a list of strings
+* This class defines a string stack
 *
-* By:      Kenny LE
+* By:      Kenny Le
 * Version: 1.0
 * Since:   2024-03-07
 */
@@ -15,12 +15,12 @@ export class MrCoxallStack {
     this.stackAsList = []
   }
 
-  // Pushes the strings to the stack
+  // Pushes the values to the stack
   public push(string: string) {
     this.stackAsList.push(string)
   }
 
-  // Prints the stack to the console
+  // Returns the stack
   public showStack() {
     let stackItems = this.stackAsList[0]
 
