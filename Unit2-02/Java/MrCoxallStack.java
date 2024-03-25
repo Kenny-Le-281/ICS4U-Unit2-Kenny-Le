@@ -36,7 +36,7 @@ public class MrCoxallStack {
      *
      * @return -  current list
      */
-    public int getStackAsList() {
+    public List<String> getStackAsList() {
         return this.stackAsList;
     }
 
