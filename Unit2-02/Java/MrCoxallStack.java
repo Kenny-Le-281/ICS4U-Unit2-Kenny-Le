@@ -29,6 +29,18 @@ public class MrCoxallStack {
         this.stackAsList = new ArrayList<>();
     }
 
+    //getters
+
+    /**
+     * The getStackAsList() getter.
+     *
+     * @return -  current list
+     */
+    public int getStackAsList() {
+        return this.stackAsList;
+    }
+
+
     /**
      * Pushes the string to a list.
      *
