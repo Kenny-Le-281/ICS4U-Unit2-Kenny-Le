@@ -22,6 +22,7 @@ const topFruit = fruitStack.pop()
 // Shows the popped item and new list
 console.log("Pop fruit item: ", topFruit)
 console.log("Fruit items: ", fruitStack.showStack())
+console.log()
 
 const colorStack = new MrCoxallStack()
 colorStack.push("red")
@@ -36,6 +37,7 @@ const topColor = colorStack.pop()
 // Shows the popped item and new list
 console.log("Pop color item: ", topColor)
 console.log("Color items: ", colorStack.showStack())
+console.log()
 
 const dogStack = new MrCoxallStack()
 dogStack.push("poodle")

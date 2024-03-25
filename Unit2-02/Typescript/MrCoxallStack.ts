@@ -15,6 +15,11 @@ export class MrCoxallStack {
     this.stackAsList = []
   }
 
+  // Getter for stackAsList
+  get stackAsList() {
+    return this._stackAsList
+  }
+
   // Pushes the values to the stack
   public push(stringPushed: string) {
     this.stackAsList.push(stringPushed)
