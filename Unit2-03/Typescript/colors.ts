@@ -17,9 +17,9 @@ console.log("The size of the stack is: ", colorStack.size)
 console.log("Is the stack empty? ", colorStack.isEmpty)
 
 // Print fruit items
-fruitStack.push("red")
-fruitStack.push("green")
-fruitStack.push("blue")
+colorStack.push("red")
+colorStack.push("green")
+colorStack.push("blue")
 console.log("Color items: ", colorStack.showStack())
 
 // Shows the popped item and new list

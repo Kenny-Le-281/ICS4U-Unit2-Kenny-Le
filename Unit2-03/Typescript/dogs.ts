@@ -17,9 +17,9 @@ console.log("The size of the stack is: ", dogStack.size)
 console.log("Is the stack empty? ", dogStack.isEmpty)
 
 // Print fruit items
-fruitStack.push("poodle")
-fruitStack.push("retriever")
-fruitStack.push("beagle")
+dogStack.push("poodle")
+dogStack.push("retriever")
+dogStack.push("beagle")
 console.log("Dog items: ", dogStack.showStack())
 
 // Shows the popped item and new list
