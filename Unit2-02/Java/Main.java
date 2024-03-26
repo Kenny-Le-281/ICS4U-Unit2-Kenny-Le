@@ -33,7 +33,7 @@ final class Main {
         fruitStack.push("apple");
         fruitStack.push("banana");
         fruitStack.push("cherry");
-        
+
         // Shows the fruit stack items
         System.out.println("Fruit Items: " + fruitStack.showStack());
 
@@ -70,7 +70,7 @@ final class Main {
         System.out.println("Dog items: " + dogStack.showStack());
 
         // Shows the popped item and new list
-        String topDog;
+        final String topDog;
         topDog = dogStack.pop();
         System.out.println("Pop dog item: " + topDog);
         System.out.println("Dog items: " + dogStack.showStack());

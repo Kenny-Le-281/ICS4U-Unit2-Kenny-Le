@@ -29,7 +29,7 @@ public class MrCoxallStack {
         this.stackAsList = new ArrayList<>();
     }
 
-    //getters
+    // getters
 
     /**
      * The getStackAsList() getter.
@@ -40,18 +40,16 @@ public class MrCoxallStack {
         return this.stackAsList;
     }
 
-
     /**
      * Pushes the string to a list.
      *
-     * @param string the string that is going to be pushed
     */
     public void push(String stringPushed) {
         this.stackAsList.add(stringPushed);
     }
 
     /**
-     * Pop the top item
+     * Pop the top item.
      *
      * @return the popped item from the stack
     */
@@ -59,7 +57,7 @@ public class MrCoxallStack {
     public String pop() {
         String returnValue = null;
         if (this.stackAsList.size() > 0) {
-            String topItem = this.stackAsList.get(2);
+            final String topItem = this.stackAsList.get(2);
             returnValue = topItem;
             this.stackAsList.remove(topItem);
         } else {
