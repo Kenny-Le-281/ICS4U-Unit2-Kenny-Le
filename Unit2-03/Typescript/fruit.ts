@@ -8,6 +8,8 @@
 
 import { MrCoxallStack } from './MrCoxallStack'
 
+const fruitStack = new MrCoxallStack()
+
 // Checksize of stack
 const fruitStackSize = fruitStack.size()
 console.log("The size of the stack is: ", fruitStackSize)
@@ -17,7 +19,6 @@ const booleanCheck = fruitStack.isEmpty()
 console.log("Is the stack empty? ", booleanCheck)
 
 // Print fruit items
-const fruitStack = new MrCoxallStack()
 fruitStack.push("apple")
 fruitStack.push("banana")
 fruitStack.push("cherry")
