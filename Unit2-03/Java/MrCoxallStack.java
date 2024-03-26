@@ -75,7 +75,7 @@ public class MrCoxallStack {
     public boolean isEmpty() {
         boolean empty = false;
 
-        if (this.array.length == 0) {
+        if (this.stackAsList.length == 0) {
             empty = true;
         }
 
@@ -88,7 +88,7 @@ public class MrCoxallStack {
      * @return the array's length
     */
     public int size() {
-        return this.array.length;
+        return this.stackAsList.length;
     }
 
     /**
