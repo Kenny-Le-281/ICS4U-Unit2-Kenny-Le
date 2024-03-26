@@ -27,7 +27,7 @@ export class MrCoxallStack {
 
   // pop the value from the stack
   public pop() {
-   let returnValue: string = ""
+    let returnValue: string = ""
     if (this.stackAsList.length > 0) {
       let topItem = this.stackAsList[this.stackAsList.length - 1]
       this.stackAsList.length = this.stackAsList.length - 1
