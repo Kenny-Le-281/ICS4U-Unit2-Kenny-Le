@@ -29,7 +29,7 @@ export class MrCoxallStack {
   public pop() {
    let returnValue: string = ""
     if (this.stackAsList.length > 0) {
-      let topItem = this.stackAsList[2]
+      let topItem = this.stackAsList[this.stackAsList.length - 1]
       this.stackAsList.length = this.stackAsList.length - 1
       returnValue = topItem
     } else {

@@ -57,7 +57,7 @@ public class MrCoxallStack {
     public String pop() {
         String returnValue = null;
         if (this.stackAsList.size() > 0) {
-            final String topItem = this.stackAsList.get(2);
+            final String topItem = this.stackAsList.get(this.stackAsList.size() - 1);
             returnValue = topItem;
             this.stackAsList.remove(topItem);
         } else {
