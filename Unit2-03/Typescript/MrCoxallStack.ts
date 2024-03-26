@@ -40,13 +40,18 @@ export class MrCoxallStack {
     }
 
     // return true if empty
-    public isEmpty(): boolean {
-        return this.stackAsList.lenth === 0
+    public get isEmpty() {
+      let empty = false
+      if (this.stackAsList.length == 0) {
+        empty = true
+      }
+
+      return empty
     }
 
     // returns number of elemnts in stack
-    public size(): number {
-        return this.stackAsList.length;
+    public get size() {
+        return this.stackAsList.length
     }
   
     // Returns the stack

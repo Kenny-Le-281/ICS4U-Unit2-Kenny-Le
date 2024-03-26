@@ -11,12 +11,10 @@ import { MrCoxallStack } from './MrCoxallStack'
 const fruitStack = new MrCoxallStack()
 
 // Checksize of stack
-const fruitStackSize = fruitStack.size()
-console.log("The size of the stack is: ", fruitStackSize)
+console.log("The size of the stack is: ", fruitStack.size)
 
 // Check boolean is empty
-const booleanCheck = fruitStack.isEmpty()
-console.log("Is the stack empty? ", booleanCheck)
+console.log("Is the stack empty? ", fruitStack.isEmpty)
 
 // Print fruit items
 fruitStack.push("apple")
@@ -28,15 +26,12 @@ console.log("Fruit items: ", fruitStack.showStack())
 const topFruit = fruitStack.pop()
 console.log("Pop fruit item: ", topFruit)
 console.log("Fruit items: ", fruitStack.showStack())
-console.log()
 
 // Checksize of stack
-const fruitStackSize2 = fruitStack.size()
-console.log("The size of the stack is: ", fruitStackSize)
+console.log("The size of the stack is: ", fruitStack.size)
 
 // Check boolean is empty
-const booleanCheck2 = fruitStack.isEmpty()
-console.log("Is the stack empty? ", booleanCheck)
+console.log("Is the stack empty? ", fruitStack.isEmpty)
 
 // Show the program as done
 console.log('\nDone.')
