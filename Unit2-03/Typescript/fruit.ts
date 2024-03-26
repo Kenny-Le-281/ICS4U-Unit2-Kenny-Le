@@ -31,7 +31,7 @@ console.log("Fruit items: ", fruitStack.showStack())
 console.log()
 
 // Checksize of stack
-const fruitStackSize = fruitStack.size()
+const fruitStackSize2 = fruitStack.size()
 console.log("The size of the stack is: ", fruitStackSize)
 
 // Check boolean is empty
