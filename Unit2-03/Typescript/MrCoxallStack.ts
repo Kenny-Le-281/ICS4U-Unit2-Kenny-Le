@@ -38,6 +38,16 @@ export class MrCoxallStack {
   
       return returnValue
     }
+
+    // return true if empty
+    public boolean isEmpty() {
+        return this.stackAsList.isEmpty()
+    }
+
+    // returns number of elemnts in stack
+    public int size() {
+        return this.stackAsList.size();
+    }
   
     // Returns the stack
     public showStack() {
