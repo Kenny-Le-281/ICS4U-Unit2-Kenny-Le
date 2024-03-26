@@ -40,12 +40,12 @@ export class MrCoxallStack {
     }
 
     // return true if empty
-    public boolean isEmpty() {
+    public isEmpty(): boolean {
         return this.stackAsList.isEmpty()
     }
 
     // returns number of elemnts in stack
-    public int size() {
+    public size(): number {
         return this.stackAsList.size();
     }
   
@@ -60,4 +60,4 @@ export class MrCoxallStack {
       return stackItems
     }
   }
-    
+
