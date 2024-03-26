@@ -38,7 +38,7 @@ final class Main {
         System.out.println("Fruit Items: " + fruitStack.showStack());
 
         // Shows the popped item and new list
-        String topFruit;
+        final String topFruit;
         topFruit = fruitStack.pop();
         System.out.println("Pop fruit item: " + topFruit);
         System.out.println("Fruit Items: " + fruitStack.showStack());
@@ -54,7 +54,7 @@ final class Main {
         System.out.println("Color items: " + colorStack.showStack());
 
         // Shows the popped item and new list
-        String topColor;
+        final String topColor;
         topColor = colorStack.pop();
         System.out.println("Pop color item: " + topColor);
         System.out.println("Color items: " + colorStack.showStack());
