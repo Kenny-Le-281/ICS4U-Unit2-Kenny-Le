@@ -68,6 +68,30 @@ public class MrCoxallStack {
     }
 
     /**
+     * Checks if the array is empty.
+     *
+     * @return the bool that says whether the array is empty or not
+    */
+    public boolean isEmpty() {
+        boolean empty = false;
+
+        if (this.array.length == 0) {
+            empty = true;
+        }
+
+        return empty;
+    }
+
+    /**
+     * Checks the size of the array.
+     *
+     * @return the array's length
+    */
+    public int size() {
+        return this.array.length;
+    }
+
+    /**
      * Returns the stack value.
      *
      * @return the values of the list formatted
