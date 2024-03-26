@@ -41,12 +41,12 @@ export class MrCoxallStack {
 
     // return true if empty
     public isEmpty(): boolean {
-        return this.stackAsList.isEmpty()
+        return this.stackAsList.lenth === 0
     }
 
     // returns number of elemnts in stack
     public size(): number {
-        return this.stackAsList.size();
+        return this.stackAsList.length();
     }
   
     // Returns the stack
