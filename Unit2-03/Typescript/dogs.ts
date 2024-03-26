@@ -24,7 +24,7 @@ console.log("Dog items: ", dogStack.showStack())
 
 // Shows the popped item and new list
 const topDog = dogStack.pop()
-console.log("Pop dog item: ", topColor)
+console.log("Pop dog item: ", topDog)
 console.log("Dog items: ", dogStack.showStack())
 
 // Checksize of stack
