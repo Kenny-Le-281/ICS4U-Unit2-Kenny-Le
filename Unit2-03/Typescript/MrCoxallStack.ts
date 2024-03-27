@@ -17,7 +17,7 @@ export class MrCoxallStack {
   
     // Getter for stackAsList
     get stackAsList() {
-      return this._stackAsList
+      return this.stackAsList
     }
   
     // Pushes the values to the stack
