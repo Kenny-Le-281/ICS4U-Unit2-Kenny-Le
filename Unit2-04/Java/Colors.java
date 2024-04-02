@@ -60,7 +60,7 @@ final class Main {
         System.out.println("Is the stack empty? " + colorStack.isEmpty());
 
         // Clear the stack
-        colorStack.clearStack()
+        colorStack.clearStack();
 
         // Check size of stack
         System.out.println("The size of the stack is: " + colorStack.size());
