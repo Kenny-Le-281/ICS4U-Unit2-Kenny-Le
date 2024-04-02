@@ -22,10 +22,22 @@ colorStack.push("green")
 colorStack.push("blue")
 console.log("Color items: ", colorStack.showStack())
 
+// Look at the top element of the array
+console.log("The top value is", colorStack.peekItem)
+
 // Shows the popped item and new list
 const topColor = colorStack.pop()
 console.log("Pop color item: ", topColor)
 console.log("Color items: ", colorStack.showStack())
+
+// Checksize of stack
+console.log("The size of the stack is: ", colorStack.size)
+
+// Check boolean is empty
+console.log("Is the stack empty? ", colorStack.isEmpty)
+
+// Clear the stack
+fruitStack.clearStack()
 
 // Checksize of stack
 console.log("The size of the stack is: ", colorStack.size)
