@@ -62,7 +62,7 @@ export class MrCoxallStack {
     // Clears the entire array
     public clearStack() {
       this.stackAsList = []
-      console.log('\nThe stack is empty!')
+      console.log('\nEmptying stack...')
     }
   
     // Returns the stack
