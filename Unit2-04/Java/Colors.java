@@ -45,7 +45,7 @@ final class Main {
         System.out.println("Color Items: " + colorStack.showStack());
 
         // Look at the top element of the list
-        System.out.println("The top value is " + fruitStack.peekItem());
+        System.out.println("The top value is " + colorStack.peekItem());
 
         // Shows the popped item and new list
         final String topColor;
