@@ -92,6 +92,30 @@ public class MrCoxallStack {
     }
 
     /**
+     * Looks at the last item of the list.
+     *
+     * @return the last item in the list
+    */
+    public String peekItem() {
+        String lastItem = "unknown";
+
+        if (this.stackAsList.length != 0) {
+            lastItem = this.stackAsList[this.stackAsList.length - 1];
+        }
+
+        return lastItem;
+    }
+
+    /**
+     * Removes all elements in the list.
+     * 
+    */
+    public void clearStack() {
+        this.stackAsList.clear();
+        System.out.println("Emptying stack...");
+    }
+
+    /**
      * Returns the stack value.
      *
      * @return the values of the list formatted

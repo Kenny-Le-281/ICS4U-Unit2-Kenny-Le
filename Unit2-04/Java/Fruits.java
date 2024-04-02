@@ -44,11 +44,23 @@ final class Main {
         fruitStack.push("cherry");
         System.out.println("Fruit Items: " + fruitStack.showStack());
 
+        // Look at the top element of the list
+        System.out.println("The top value is " + fruitStack.peekItem());
+
         // Shows the popped item and new list
         final String topFruit;
         topFruit = fruitStack.pop();
         System.out.println("Pop fruit item: " + topFruit);
         System.out.println("Fruit Items: " + fruitStack.showStack());
+
+        // Check size of stack
+        System.out.println("The size of the stack is: " + fruitStack.size());
+
+        // Check boolean is empty
+        System.out.println("Is the stack empty? " + fruitStack.isEmpty());
+
+        // Clear the stack
+        fruitStack.clearStack()
 
         // Check size of stack
         System.out.println("The size of the stack is: " + fruitStack.size());

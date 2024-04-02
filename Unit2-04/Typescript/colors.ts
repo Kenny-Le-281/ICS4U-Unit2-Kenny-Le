@@ -22,7 +22,7 @@ colorStack.push("green")
 colorStack.push("blue")
 console.log("Color items: ", colorStack.showStack())
 
-// Look at the top element of the array
+// Look at the top element of the list
 console.log("The top value is", colorStack.peekItem)
 
 // Shows the popped item and new list
