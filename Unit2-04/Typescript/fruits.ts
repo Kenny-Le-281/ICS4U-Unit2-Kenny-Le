@@ -22,6 +22,9 @@ fruitStack.push("banana")
 fruitStack.push("cherry")
 console.log("Fruit items: ", fruitStack.showStack())
 
+// Look at the top element of the array
+console.log("The top value is", fruitStack.peekItem)
+
 // Shows the popped item and new list
 const topFruit = fruitStack.pop()
 console.log("Pop fruit item: ", topFruit)
@@ -32,6 +35,9 @@ console.log("The size of the stack is: ", fruitStack.size)
 
 // Check boolean is empty
 console.log("Is the stack empty? ", fruitStack.isEmpty)
+
+// Clear the stack
+fruitStack.clearStack()
 
 // Show the program as done
 console.log('\nDone.')
