@@ -44,11 +44,23 @@ final class Main {
         colorStack.push("blue");
         System.out.println("Color Items: " + colorStack.showStack());
 
+        // Look at the top element of the list
+        System.out.println("The top value is " + fruitStack.peekItem());
+
         // Shows the popped item and new list
         final String topColor;
         topColor = colorStack.pop();
         System.out.println("Pop color item: " + topColor);
         System.out.println("Color Items: " + colorStack.showStack());
+
+        // Check size of stack
+        System.out.println("The size of the stack is: " + colorStack.size());
+
+        // Check boolean is empty
+        System.out.println("Is the stack empty? " + colorStack.isEmpty());
+
+        // Clear the stack
+        colorStack.clearStack()
 
         // Check size of stack
         System.out.println("The size of the stack is: " + colorStack.size());

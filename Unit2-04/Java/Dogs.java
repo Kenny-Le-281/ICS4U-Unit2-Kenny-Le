@@ -44,11 +44,23 @@ final class Main {
         dogStack.push("beagle");
         System.out.println("Dog Items: " + dogStack.showStack());
 
+        // Look at the top element of the list
+        System.out.println("The top value is " + dogStack.peekItem());
+
         // Shows the popped item and new list
         final String topDog;
         topDog = dogStack.pop();
         System.out.println("Pop dog item: " + topDog);
         System.out.println("Dog Items: " + dogStack.showStack());
+
+        // Check size of stack
+        System.out.println("The size of the stack is: " + dogStack.size());
+
+        // Check boolean is empty
+        System.out.println("Is the stack empty? " + dogStack.isEmpty());
+
+        // Clear the stack
+        dogStack.clearStack();
 
         // Check size of stack
         System.out.println("The size of the stack is: " + dogStack.size());
