@@ -53,6 +53,17 @@ export class MrCoxallStack {
     public get size() {
         return this.stackAsList.length
     }
+
+    // Returns the last element of the array
+    public get peekItem() {
+      return this.stackAsList[this.stackAsList.length - 1]
+    }
+
+    // Clears the entire array
+    public clearStack() {
+      this.stackAsList = []
+      console.log('\nThe stack is empty!')
+    }
   
     // Returns the stack
     public showStack() {
