@@ -100,7 +100,7 @@ public class MrCoxallStack {
         String lastItem = "unknown";
 
         if (this.stackAsList.size() != 0) {
-            lastItem = this.stackAsList(this.stackAsList.size() - 1);
+            lastItem = this.stackAsList.get(this.stackAsList.size() - 1);
         }
 
         return lastItem;
