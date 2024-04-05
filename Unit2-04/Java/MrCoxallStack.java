@@ -99,7 +99,7 @@ public class MrCoxallStack {
     public String peekItem() {
         String returnValue = null;
         if (this.stackAsList.size() > 0) {
-            lastItem = this.stackAsList.get(this.stackAsList.size() - 1);
+            String lastItem = this.stackAsList.get(this.stackAsList.size() - 1);
             returnValue = lastItem;
         } else {
             returnValue = "The Stack is empty!";
