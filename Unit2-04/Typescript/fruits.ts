@@ -37,6 +37,7 @@ console.log("The size of the stack is: ", fruitStack.size)
 console.log("Is the stack empty? ", fruitStack.isEmpty)
 
 // Clear the stack
+console.log('\nEmptying stack...')
 fruitStack.clearStack()
 
 // Checksize of stack

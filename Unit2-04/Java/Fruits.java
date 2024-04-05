@@ -60,6 +60,7 @@ final class Main {
         System.out.println("Is the stack empty? " + fruitStack.isEmpty());
 
         // Clear the stack
+        System.out.println("Emptying stack...");
         fruitStack.clearStack();
 
         // Check size of stack

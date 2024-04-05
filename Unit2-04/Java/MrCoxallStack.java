@@ -115,7 +115,6 @@ public class MrCoxallStack {
     */
     public void clearStack() {
         this.stackAsList.clear();
-        System.out.println("Emptying stack...");
     }
 
     /**

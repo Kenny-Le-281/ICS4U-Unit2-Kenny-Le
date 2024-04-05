@@ -60,6 +60,7 @@ final class Main {
         System.out.println("Is the stack empty? " + dogStack.isEmpty());
 
         // Clear the stack
+        System.out.println("Emptying stack...");
         dogStack.clearStack();
 
         // Check size of stack
