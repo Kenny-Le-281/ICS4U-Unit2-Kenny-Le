@@ -56,13 +56,18 @@ export class MrCoxallStack {
 
     // Returns the last element of the array
     public get peekItem() {
-      return this.stackAsList[this.stackAsList.length - 1]
+      if (this.stackAsList.length > 0) {
+        returnValue = this.stackAsList[this.stackAsList.length - 1]
+      } else {
+        returnValue = "The stacks is empty!"
+      }
+
+      return returnValue
     }
 
     // Clears the entire array
     public clearStack() {
       this.stackAsList = []
-      console.log('\nEmptying stack...')
     }
   
     // Returns the stack
