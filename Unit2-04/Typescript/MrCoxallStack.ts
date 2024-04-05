@@ -56,6 +56,7 @@ export class MrCoxallStack {
 
     // Returns the last element of the array
     public get peekItem() {
+      let returnValue: string = ""
       if (this.stackAsList.length > 0) {
         returnValue = this.stackAsList[this.stackAsList.length - 1]
       } else {
