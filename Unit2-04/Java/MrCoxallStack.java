@@ -61,7 +61,7 @@ public class MrCoxallStack {
             returnValue = topItem;
             this.stackAsList.remove(topItem);
         } else {
-            returnValue = System.out.println("The Stack is empty!");
+            returnValue = "The Stack is empty!";
         }
 
         return returnValue;
@@ -98,12 +98,11 @@ public class MrCoxallStack {
     */
     public String peekItem() {
         String lastItem = "";
-
         if (this.stackAsList.size() > 0) {
             lastItem = this.stackAsList.get(this.stackAsList.size() - 1);
             returnValue = lastItem;
         } else {
-            returnValue = System.out.println("The Stack is empty!");
+            returnValue = "The Stack is empty!";
         }
 
         return returnValue;
