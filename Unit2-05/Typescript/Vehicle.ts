@@ -81,7 +81,7 @@ export class Vehicle {
     if (accelerationPower > 0 && accelerationTime > 0) {
       this.speed = (accelerationPower * accelerationTime) + this.speed;
       if (this.speed > this.maxSpeed) {
-          this.speed = this.maxSpeed;
+        this.speed = this.maxSpeed;
       }
   } else {
       console.error("Acceleration power and time must be positive numbers.");
@@ -93,7 +93,7 @@ export class Vehicle {
     if (brakePower > 0 && brakeTime > 0) {
       this.speed = this.speed - (brakePower * brakeTime);
       if (this.speed < 0) {
-          this.speed = 0;
+        this.speed = 0;
       }
     } else {
       console.error("Brake power and time must be positive numbers.");
