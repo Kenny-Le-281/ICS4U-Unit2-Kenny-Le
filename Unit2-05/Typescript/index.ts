@@ -1,9 +1,9 @@
 /**
 * This is the main code that runs
  * with the Vehicle Class.
- * By:      Mr Coxall
+ * By:      Kenny Le
  * Version: 1.0
- * Since:   2020-01-01
+ * Since:   2023-04-27
  */
 
 import { Vehicle } from './Vehicle.ts'
