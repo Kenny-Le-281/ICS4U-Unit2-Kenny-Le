@@ -113,7 +113,7 @@ public class Vehicle {
      * @return the string about the vehicle's status
     */
     public String getStatus() {
-        final String breakLine = "/n";
+        final String breakLine = "\n";
         String status = " -> Speed: " + this.speed + breakLine;
         status += " -> MaxSpeed: " + this.maxSpeed + breakLine;
         status += " -> Number of doors: " + this.doors + breakLine;
