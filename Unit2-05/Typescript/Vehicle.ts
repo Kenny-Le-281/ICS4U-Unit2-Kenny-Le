@@ -21,12 +21,12 @@ export class Vehicle {
   private maxSpeed: number
 
   // Creates the base vehicle
-  public constructor(startColour: string, startPlateNumber: string,startDoors: int, startMaxSpeed: number) {
+  public constructor(initialColour: string, initialPlateNumber: string, initialDoors: int, initialMaxSpeed: number) {
     this.speed = 0
-    this.maxSpeed = startMaxSpeed
-    this.doors = startDoors
-    this.licensePlateNumber = startPlateNumber
-    this.colour = startColour
+    this.maxSpeed = initialMaxSpeed
+    this.doors = initialDoors
+    this.licensePlateNumber = initialPlateNumber
+    this.colour = initialColour
   }
 
   // Gets the license plate number of the vehicle
@@ -78,24 +78,24 @@ export class Vehicle {
   // Accelerates the car, changing the speed
   public accelerate(accelerationPower: number, accelerationTime: number) {
     if (accelerationPower > 0 && accelerationTime > 0) {
-      this.speed = (accelerationPower * accelerationTime) + this.speed;
+      this.speed = (accelerationPower * accelerationTime) + this.speed
       if (this.speed > this.maxSpeed) {
-        this.speed = this.maxSpeed;
+        this.speed = this.maxSpeed
       }
   } else {
-      console.error("Acceleration power and time must be positive numbers.");
+      console.log("Acceleration power and time must be positive numbers.");
   }
 }
 
   // Brakes the car, changing the speed
   public brake(brakePower: number, brakeTime: number) {
     if (brakePower > 0 && brakeTime > 0) {
-      this.speed = this.speed - (brakePower * brakeTime);
+      this.speed = this.speed - (brakePower * brakeTime)
       if (this.speed < 0) {
-        this.speed = 0;
+        this.speed = 0
       }
     } else {
-      console.error("Brake power and time must be positive numbers.");
+      console.log("Brake power and time must be positive numbers.");
     }
   }
 }

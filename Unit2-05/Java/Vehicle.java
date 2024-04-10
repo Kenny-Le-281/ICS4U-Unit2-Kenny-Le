@@ -48,17 +48,17 @@ public class Vehicle {
     /**
      * Creates the base vehicle.
      *
-     * @param startColour the base colour
-     * @param startPlateNumber the base license plate number
-     * @param startDoors the number of doors
-     * @param startMaxSpeed the maximum speed of the vehicle
+     * @param initialColour the base colour
+     * @param initialPlateNumber the base license plate number
+     * @param initialDoors the number of doors
+     * @param initialMaxSpeed the maximum speed of the vehicle
     */
-    public Vehicle(String startColour, String startPlateNumber, int startDoors, double startMaxSpeed) {
+    public Vehicle(String initialColour, String initialPlateNumber, int initialDoors, double initialMaxSpeed) {
         this.speed = 0;
-        this.maxSpeed = startMaxSpeed;
-        this.doors = startDoors;
-        this.licensePlateNumber = startPlateNumber;
-        this.colour = startColour;
+        this.maxSpeed = initialMaxSpeed;
+        this.doors = initialDoors;
+        this.licensePlateNumber = initialPlateNumber;
+        this.colour = initialColour;
     }
 
     /**
@@ -112,12 +112,11 @@ public class Vehicle {
      * @return the string about the vehicle's status
     */
     public String getStatus() {
-        final String lineBreak = "\n";
-        String status = " -> Speed: " + this.speed + lineBreak;
-        status += " -> MaxSpeed: " + this.maxSpeed + lineBreak;
-        status += " -> Number of doors: " + this.doors + lineBreak;
-        status += " -> License Plate: " + this.licensePlateNumber + lineBreak;
-        status += " -> Color: " + this.colour + lineBreak;
+        String status = " -> Speed: " + this.speed + "\n";
+        status += " -> MaxSpeed: " + this.maxSpeed + "\n";
+        status += " -> Number of doors: " + this.doors + "\n";
+        status += " -> License Plate: " + this.licensePlateNumber + "\n";
+        status += " -> Color: " + this.colour + "\n";
 
         return status;
     }
@@ -143,13 +142,17 @@ public class Vehicle {
     /**
      * Accelerates the vehicle, which changes the speed.
      *
-     * @param accelPower power of the acceleration
-     * @param accelTime time of the acceleration
+     * @param accelerationPower power of the acceleration
+     * @param accelerationTime time of the acceleration
     */
-    public void accelerate(double accelPower, double accelTime) {
-        this.speed = (accelPower * accelTime) + this.speed;
-        if (this.speed > this.maxSpeed) {
-            this.speed = this.maxSpeed;
+    public void accelerate(double accelerationPower, double accelerationTime) {
+        if (accelerationPower > 0 && accelerationTime > 0) {
+            this.speed = (accelerationPower * accelerationTime) + this.speed;
+            if (this.speed > this.maxSpeed) {
+                this.speed = this.maxSpeed;
+            }
+        } else {
+            System.out.print("Acceleration power and time must be positive numbers.");
         }
     }
 
@@ -160,9 +163,13 @@ public class Vehicle {
      * @param brakeTime time of the brake
     */
     public void brake(double brakePower, double brakeTime) {
-        this.speed = this.speed - (brakePower * brakeTime);
-        if (this.speed < 0) {
-            this.speed = 0;
+        if (brakePower > 0 && brakeTime > 0) {
+            this.speed = this.speed - (brakePower * brakeTime)
+            if (this.speed < 0) {
+                this.speed = 0
+            }
+        } else {
+            System.out.print("Brake power and time must be positive numbers.");
         }
     }
 }
