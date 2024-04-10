@@ -83,7 +83,7 @@ export class Vehicle {
         this.speed = this.maxSpeed
       }
   } else {
-      console.log("Acceleration power and time must be positive numbers.");
+      console.log("Acceleration power and time must be positive numbers.")
   }
 }
 
@@ -95,7 +95,7 @@ export class Vehicle {
         this.speed = 0
       }
     } else {
-      console.log("Brake power and time must be positive numbers.");
+      console.log("Brake power and time must be positive numbers.")
     }
   }
 }
