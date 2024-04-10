@@ -41,24 +41,24 @@ final class Main {
     static final double BRAKE_TIME_FERRARI = 10;
 
     /**
-    * Acceleration Power Citreon.
+    * Acceleration Power Citroen.
     */
-    static final double ACCEL_POWER_CITREON = 5;
+    static final double ACCEL_POWER_CITROEN = 5;
 
     /**
-    * Acceleration Time Citreon
+    * Acceleration Time Citroen
     */
-    static final double ACCEL_TIME_CITREON = 10;
+    static final double ACCEL_POWER_CITROEN = 10;
 
     /**
-    * Brake Power Citreon.
+    * Brake Power Citroen.
     */
-    static final double BRAKE_POWER_CITREON = 2;
+    static final double BRAKE_POWER_CITROEN = 2;
 
     /**
-    * Brake Time Citreon.
+    * Brake Time Citroen.
     */
-    static final double BRAKE_TIME_CITREON = 10;
+    static final double BRAKE_TIME_CITROEN = 10;
 
     /**
     * Prevent instantiation.
@@ -121,11 +121,11 @@ final class Main {
         // Change vehicle
         System.out.println(statusString + citroenAmi.getStatus());
         System.out.println("Accelerating, 5 of power for 10 sec.");
-        citroenAmi.accelerate(ACCEL_POWER_CITREON, ACCEL_TIME_CITREON);
+        citroenAmi.accelerate(ACCEL_POWER_CITROEN, ACCEL_TIME_CITROEN);
         System.out.println(speedString + citroenAmi.getSpeed());
 
         System.out.println("Breaking, 2 of power for 10 sec.");
-        citroenAmi.brake(BRAKE_POWER_CITREON, BRAKE_TIME_CITREON);
+        citroenAmi.brake(BRAKE_POWER_CITROEN, BRAKE_TIME_CITROEN);
         System.out.println(speedString + citroenAmi.getSpeed());
 
         System.out.println("Changing colour to purple:");
