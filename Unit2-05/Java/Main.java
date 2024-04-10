@@ -11,52 +11,52 @@
 */
 final class Main {
     /**
-    * Bike 1 start speed.
+    * Acceleration Power Ford.
     */
     static final double ACCEL_POWER_FORD = 10;
 
     /**
-    * Bike 1 start speed.
+    * Acceleration Time Ford.
     */
     static final double ACCEL_TIME_FORD = 10;
 
     /**
-    * Bike 1 start speed.
+    * Acceleration Power Ferrari.
     */
     static final double ACCEL_POWER_FERRARI = 100;
 
     /**
-    * Bike 1 start speed.
+    * Acceleration Time Ferrari.
     */
     static final double ACCEL_TIME_FERRARI = 4;
 
     /**
-    * Bike 1 start speed.
+    * Brake Power Ferrari.
     */
     static final double BRAKE_POWER_FERRARI = 10;
 
     /**
-    * Bike 1 start speed.
+    * Brake Time Ferrari.
     */
     static final double BRAKE_TIME_FERRARI = 10;
 
     /**
-    * Bike 1 start speed.
+    * Acceleration Power Citreon.
     */
     static final double ACCEL_POWER_CITREON = 5;
 
     /**
-    * Bike 1 start speed.
+    * Acceleration Time Citreon
     */
     static final double ACCEL_TIME_CITREON = 10;
 
     /**
-    * Bike 1 start speed.
+    * Brake Power Citreon.
     */
     static final double BRAKE_POWER_CITREON = 2;
 
     /**
-    * Bike 1 start speed.
+    * Brake Time Citreon.
     */
     static final double BRAKE_TIME_CITREON = 10;
 
