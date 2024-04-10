@@ -53,7 +53,7 @@ public class Vehicle {
      * @param initialDoors the number of doors
      * @param initialMaxSpeed the maximum speed of the vehicle
     */
-    public Vehicle(String initialColour, String initialPlateNumber, 
+    public Vehicle(String initialColour, String initialPlateNumber,
                     int initialDoors, double initialMaxSpeed) {
         this.speed = 0;
         this.maxSpeed = initialMaxSpeed;
@@ -118,7 +118,7 @@ public class Vehicle {
         status += " -> MaxSpeed: " + this.maxSpeed + breakLine;
         status += " -> Number of doors: " + this.doors + breakLine;
         status += " -> License Plate: " + this.licensePlateNumber + breakLine;
-        status += " -> Color: " + this.colour + "\n";
+        status += " -> Color: " + this.colour + breakLine;
 
         return status;
     }
