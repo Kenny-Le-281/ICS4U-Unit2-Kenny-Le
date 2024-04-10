@@ -11,6 +11,56 @@
 */
 final class Main {
     /**
+    * Bike 1 start speed.
+    */
+    static final double ACCEL_POWER_FORD = 10;
+
+    /**
+    * Bike 1 start speed.
+    */
+    static final double ACCEL_TIME_FORD = 10;
+    
+    /**
+    * Bike 1 start speed.
+    */
+    static final double ACCEL_POWER_FERRARI = 100;
+
+    /**
+    * Bike 1 start speed.
+    */
+    static final double ACCEL_TIME_FERRARI = 4;
+
+    /**
+    * Bike 1 start speed.
+    */
+    static final double BRAKE_POWER_FERRARI = 10;
+
+    /**
+    * Bike 1 start speed.
+    */
+    static final double BRAKE_TIME_FERRARI = 10;
+
+    /**
+    * Bike 1 start speed.
+    */
+    static final double ACCEL_POWER_CITREON = 5;
+
+    /**
+    * Bike 1 start speed.
+    */
+    static final double ACCEL_TIME_CITREON = 10;
+
+    /**
+    * Bike 1 start speed.
+    */
+    static final double BRAKE_POWER_CITREON = 2;
+
+    /**
+    * Bike 1 start speed.
+    */
+    static final double BRAKE_TIME_CITREON = 10;
+
+    /**
     * Prevent instantiation.
     * Throw an exception IllegalStateException.
     * if this is ever called
@@ -41,9 +91,7 @@ final class Main {
         System.out.println(statusString + fordFocus.getStatus());
 
         System.out.println("Accelerating, 10 of power for 10 sec.");
-        double accelPower = 10;
-        double accelTime = 10;
-        fordFocus.accelerate(accelPower, accelTime);
+        fordFocus.accelerate(ACCEL_POWER_FORD, ACCEL_TIME_FORD);
         System.out.println(speedString + fordFocus.getSpeed());
 
         System.out.println("Changing colour to black:");
@@ -56,15 +104,11 @@ final class Main {
         // Change vehicle
         System.out.println(statusString + ferrari.getStatus());
         System.out.println("Accelerating, 100 of power for 4 sec.");
-        accelPower = 100;
-        accelTime = 4;
-        ferrari.accelerate(accelPower, accelTime);
+        ferrari.accelerate(ACCEL_POWER_FERRARI, ACCEL_TIME_FERRARI);
         System.out.println(speedString + ferrari.getSpeed());
 
         System.out.println("Breaking, 10 of power for 10 sec.");
-        double brakePower = 10;
-        double brakeTime = 10;
-        ferrari.brake(brakePower, brakeTime);
+        ferrari.brake(BRAKE_POWER_FERRARI, BRAKE_TIME_FERRARI);
         System.out.println(speedString + ferrari.getSpeed());
 
         System.out.println("Changing colour to racing red:");
@@ -77,15 +121,11 @@ final class Main {
         // Change vehicle
         System.out.println(statusString + citroenAmi.getStatus());
         System.out.println("Accelerating, 5 of power for 10 sec.");
-        accelPower = 5;
-        accelTime = 10;
-        citroenAmi.accelerate(accelPower, accelTime);
+        citroenAmi.accelerate(ACCEL_POWER_CITREON, ACCEL_TIME_CITREON);
         System.out.println(speedString + citroenAmi.getSpeed());
 
         System.out.println("Breaking, 2 of power for 10 sec.");
-        brakePower = 2;
-        brakeTime = 10;
-        citroenAmi.brake(brakePower, brakeTime);
+        citroenAmi.brake(BRAKE_POWER_CITREON, BRAKE_TIME_CITREON);
         System.out.println(speedString + citroenAmi.getSpeed());
 
         System.out.println("Changing colour to purple:");

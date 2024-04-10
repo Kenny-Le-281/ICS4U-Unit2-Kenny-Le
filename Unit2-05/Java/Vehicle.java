@@ -113,10 +113,11 @@ public class Vehicle {
      * @return the string about the vehicle's status
     */
     public String getStatus() {
-        String status = " -> Speed: " + this.speed + "\n";
-        status += " -> MaxSpeed: " + this.maxSpeed + "\n";
-        status += " -> Number of doors: " + this.doors + "\n";
-        status += " -> License Plate: " + this.licensePlateNumber + "\n";
+        final breakLine = "/n"
+        String status = " -> Speed: " + this.speed + breakLine;
+        status += " -> MaxSpeed: " + this.maxSpeed + breakLine;
+        status += " -> Number of doors: " + this.doors + breakLine;
+        status += " -> License Plate: " + this.licensePlateNumber + breakLine
         status += " -> Color: " + this.colour + "\n";
 
         return status;
@@ -153,7 +154,8 @@ public class Vehicle {
                 this.speed = this.maxSpeed;
             }
         } else {
-            System.out.print("Acceleration power and time must be positive numbers.");
+            System.out.print("Acceleration power and 
+                    time must be positive numbers.");
         }
     }
 
