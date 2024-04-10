@@ -154,8 +154,7 @@ public class Vehicle {
                 this.speed = this.maxSpeed;
             }
         } else {
-            System.out.print("Acceleration power and 
-                    time must be positive numbers.");
+            System.out.print("Acceleration power and time must be positive numbers.");
         }
     }
 
