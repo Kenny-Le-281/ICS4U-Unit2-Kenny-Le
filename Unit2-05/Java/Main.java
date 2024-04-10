@@ -19,7 +19,7 @@ final class Main {
     * Bike 1 start speed.
     */
     static final double ACCEL_TIME_FORD = 10;
-    
+
     /**
     * Bike 1 start speed.
     */
