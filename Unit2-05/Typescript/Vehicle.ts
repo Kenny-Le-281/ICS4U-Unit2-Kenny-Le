@@ -10,7 +10,7 @@ export class Vehicle {
   // Class variables
 
   // Vehicle license plate number
-  licensePlateNumber: string
+  private licensePlateNumber
   // Vehicle colour
   private colour: string
   // Number of doors on the vehicle
