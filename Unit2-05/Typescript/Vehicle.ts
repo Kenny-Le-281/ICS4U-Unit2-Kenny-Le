@@ -1,5 +1,4 @@
 /**
-*
 * This class creates a vehicle
 *
 * By:      Kenny Le
@@ -11,11 +10,11 @@ export class Vehicle {
   // Class variables
 
   // Vehicle license plate number
-  private licensePlateNumber: string
+  private licensePlateNumber
   // Vehicle colour
   private colour: string
   // Number of doors on the vehicle
-  private doors: int
+  private doors: number
   // Current speed of the vehicle
   private speed: number
   // Maximum speed of the vehicle
@@ -23,40 +22,40 @@ export class Vehicle {
 
   // Creates the base vehicle
   public constructor(startColour: string, startPlateNumber: string,startDoors: int, startMaxSpeed: number) {
-    this.licensePlateNumber = startPlateNumber
-    this.colour = startColour
-    this.doors = startDoors
     this.speed = 0
     this.maxSpeed = startMaxSpeed
+    this.doors = startDoors
+    this.licensePlateNumber = startPlateNumber
+    this.colour = startColour
   }
 
   // Gets the license plate number of the vehicle
-  public get licensePlateNumber() {
+  public get licensePlateNumber(): string {
     return this.licensePlateNumber
   }
 
   // Gets the colour of the vehicle
-  public get colour() {
+  public get colour(): string {
     return this.colour
   }
 
   // Gets the number of doors on the vehicle
-  public get doors() {
+  public get doors(): number {
     return this.doors
   }
 
   // Gets the current speed of the vehicle
-  public get speed() {
+  public get speed(): number {
     return this.speed
   }
 
   // Gets the maximum speed of the vehicle
-  public get maxSpeed() {
+  public get maxSpeed(): number {
     return this.maxSpeed
   }
 
   // Creates a string about the status of the car
-  public get status() {
+  public get status(): string {
     let statusString = ` -> Speed: ${this.speed}\n`
     statusString += ` -> MaxSpeed: ${this.maxSpeed}\n`
     statusString += ` -> Number of doors: ${this.doors}\n`
