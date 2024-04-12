@@ -41,15 +41,27 @@ final class FlyTest {
         final int secondSpeed = 422;
         boeing.setSpeed(secondSpeed);
         System.out.println(boeing.getSpeed());
-        final int maxLoops = 5;
-        for (int counter = 0; counter < maxLoops; counter++) {
+        final int counter;
+        while (counter < 4) {
             boeing.accelerate();
             System.out.println(boeing.getSpeed());
+            if (boeing.getSpeed() > 5000) {
+                biplane.setSpeed(biplane.getSpeed() * 2);
+            } else {
+                boeing.accelerate();
+            }
+            counter++;
         }
-        final int thirdSpeed = 424;
-        boeing.setSpeed(thirdSpeed);
-        boeing.accelerate();
         System.out.println(boeing.getSpeed());
+        // final int maxLoops = 5;
+        // for (int counter = 0; counter < maxLoops; counter++) {
+        //     boeing.accelerate();
+        //     System.out.println(boeing.getSpeed());
+        // }
+        // final int thirdSpeed = 424;
+        // boeing.setSpeed(thirdSpeed);
+        // boeing.accelerate();
+        // System.out.println(boeing.getSpeed());
 
         // Show the program as done
         System.out.println("\nDone.");
