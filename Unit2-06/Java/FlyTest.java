@@ -41,7 +41,7 @@ final class FlyTest {
         final int secondSpeed = 422;
         boeing.setSpeed(secondSpeed);
         System.out.println(boeing.getSpeed());
-        final int counter = 0;
+        int counter = 0;
         while (counter < 4) {
             boeing.accelerate();
             System.out.println(boeing.getSpeed());
