@@ -3,7 +3,7 @@
 *
 * By:      Kenny Le
 * Version: 1.0
-* Since:   2024-03-27
+* Since:   2024-04-12
 */
 
 export class Vehicle {
@@ -82,10 +82,10 @@ export class Vehicle {
       if (this.speed > this.maxSpeed) {
         this.speed = this.maxSpeed
       }
-  } else {
+    } else {
       console.log("Acceleration power and time must be positive numbers.")
+    }
   }
-}
 
   // Brakes the car, changing the speed
   public brake(brakePower: number, brakeTime: number) {
