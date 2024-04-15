@@ -20,7 +20,6 @@ public class Jet extends Airplane {
      * Creates the base jet.
     */
     public Jet() {
-        super();
     }
 
     /**
