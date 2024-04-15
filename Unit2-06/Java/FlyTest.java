@@ -15,7 +15,7 @@ final class FlyTest {
     /**
      * Number, 212.
      */
-    static final int FIRSTSPEED = 212;
+    static final int NUMBER212 = 212;
 
     /**
      * Number, 844.
@@ -38,32 +38,30 @@ final class FlyTest {
     static final int NUMBER2 = 2;
 
     /**
-    * Prevent instantiation.
-    * Throw an exception IllegalStateException.
-    * if this is ever called
-    *
-    * @throws IllegalStateException if this is ever called
-    *
-    */
+     * Preven  instantiation.
+     * Throw an exception IllegalStateException.
+     * if this is ever called
+     *
+     * @throws IllegalStateException if this is ever called
+     *
+     */
+
     private FlyTest() {
         throw new IllegalStateException("Cannot be instantiated");
     }
 
     /**
-    * The starting main() function.
-    *
-    * @param args No args will be used
-    */
-    public static void main(final String[] args) {
+     * The starting calculateBoardFoot() function.
+     *
+     * @param args using args
+     *
+     */
 
-        // Create airplane
+    static void main(String[] args) {
         final Airplane biplane = new Airplane();
-        biplane.setSpeed(FIRSTSPEED);
+        biplane.setSpeed(NUMBER212);
         System.out.println(biplane.getSpeed());
-
-        // Create jet
         final Jet boeing = new Jet();
-        final int secondSpeed = 422;
         boeing.setSpeed(NUMBER844);
         System.out.println(boeing.getSpeed());
         int counter = 0;
@@ -71,24 +69,13 @@ final class FlyTest {
             boeing.accelerate();
             System.out.println(boeing.getSpeed());
             if (boeing.getSpeed() > NUMBER5000) {
-                biplane.setSpeed(biplane.getSpeed() * 2);
+                biplane.setSpeed(biplane.getSpeed() * NUMBER2);
             } else {
                 boeing.accelerate();
             }
             counter++;
         }
-        System.out.println(boeing.getSpeed());
-        // final int maxLoops = 5;
-        // for (int counter = 0; counter < maxLoops; counter++) {
-        //     boeing.accelerate();
-        //     System.out.println(boeing.getSpeed());
-        // }
-        // final int thirdSpeed = 424;
-        // boeing.setSpeed(thirdSpeed);
-        // boeing.accelerate();
-        // System.out.println(boeing.getSpeed());
-
-        // Show the program as done
+        System.out.println(biplane.getSpeed());
         System.out.println("\nDone.");
     }
 }
