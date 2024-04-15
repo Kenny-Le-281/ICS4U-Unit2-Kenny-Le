@@ -18,24 +18,19 @@ final class FlyTest {
     static final int FIRSTSPEED = 212;
 
     /**
-     * Number, 844.
+     * Number 422.
      */
     static final int SECONDSPEED = 422;
 
     /**
-     * Number, 4.
+     * Number 424.
      */
     static final int THIRDSPEED = 424;
 
     /**
-     * Number, 5000.
+     * Number 5000.
      */
     static final int NUMBER5000 = 5000;
-
-    /**
-     * Number, 2.
-     */
-    static final int NUMBER2 = 2;
 
     /**
     * Prevent instantiation.
