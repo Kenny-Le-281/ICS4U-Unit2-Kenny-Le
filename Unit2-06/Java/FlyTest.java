@@ -65,7 +65,7 @@ final class FlyTest {
         final Jet boeing = new Jet();
         boeing.setSpeed(SECONDSPEED);
         System.out.println(boeing.getSpeed());
-        final int maxCounter = 5;
+        final int maxCounter = 4;
         int counter = 0;
         while (counter < maxCounter) {
             boeing.accelerate();
