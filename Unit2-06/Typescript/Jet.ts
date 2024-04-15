@@ -10,9 +10,6 @@
 import { Airplane } from './Airplane'
 
 export class Jet extends Airplane {
-  // Class variables
-  private MULTIPLIER = 2 // Speed multiplier
-
   // Creates the base vehicle
   public constructor() {
     super()
@@ -20,7 +17,7 @@ export class Jet extends Airplane {
 
   // Sets the speed of the jet
   public setSpeed(newSpeed: number) {
-    super.setSpeed(newSpeed * this.MULTIPLIER)
+    super.setSpeed(newSpeed * 2)
   }
 
   // Accelerates the jet, changing speed

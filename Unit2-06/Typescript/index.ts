@@ -1,4 +1,3 @@
-
 /**
 *
 * This program uses a basic class to make an array of strings

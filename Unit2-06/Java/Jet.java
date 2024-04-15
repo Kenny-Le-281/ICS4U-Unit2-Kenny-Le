@@ -1,4 +1,3 @@
-
 /*
 * This class creates a jet which is a type of airplane.
 *

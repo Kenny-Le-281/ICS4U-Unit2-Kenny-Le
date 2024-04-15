@@ -1,4 +1,3 @@
-
 /*
 * This class creates an airplane.
 *
