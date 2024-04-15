@@ -11,6 +11,32 @@
 * This is the program.
 */
 final class FlyTest {
+
+    /**
+     * Number, 212.
+     */
+    static final int FIRSTSPEED = 212;
+
+    /**
+     * Number, 844.
+     */
+    static final int NUMBER844 = 844;
+
+    /**
+     * Number, 4.
+     */
+    static final int NUMBER4 = 4;
+
+    /**
+     * Number, 5000.
+     */
+    static final int NUMBER5000 = 5000;
+
+    /**
+     * Number, 2.
+     */
+    static final int NUMBER2 = 2;
+
     /**
     * Prevent instantiation.
     * Throw an exception IllegalStateException.
@@ -32,20 +58,19 @@ final class FlyTest {
 
         // Create airplane
         final Airplane biplane = new Airplane();
-        final int firstSpeed = 212;
-        biplane.setSpeed(firstSpeed);
+        biplane.setSpeed(FIRSTSPEED);
         System.out.println(biplane.getSpeed());
 
         // Create jet
         final Jet boeing = new Jet();
         final int secondSpeed = 422;
-        boeing.setSpeed(secondSpeed);
+        boeing.setSpeed(NUMBER844);
         System.out.println(boeing.getSpeed());
         int counter = 0;
-        while (counter < 4) {
+        while (counter < NUMBER4) {
             boeing.accelerate();
             System.out.println(boeing.getSpeed());
-            if (boeing.getSpeed() > 5000) {
+            if (boeing.getSpeed() > NUMBER5000) {
                 biplane.setSpeed(biplane.getSpeed() * 2);
             } else {
                 boeing.accelerate();
