@@ -57,7 +57,7 @@ final class FlyTest {
      *
      */
 
-    static void main(String[] args) {
+    public static void main(String[] args) {
         final Airplane biplane = new Airplane();
         biplane.setSpeed(NUMBER212);
         System.out.println(biplane.getSpeed());
