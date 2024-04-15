@@ -21,7 +21,7 @@ const boeing = new Jet()
 boeing.setSpeed(422)
 console.log(boeing.getSpeed())
 
-let counter: number = 0
+let counter = 0
 while (counter < 4) {
   boeing.accelerate()
   console.log(boeing.getSpeed())
