@@ -29,14 +29,14 @@ while (counter < 4) {
   if (boeing.getSpeed() > 5000) {
   // If the speed of the boeing object is greater than NUMBER_5000,
   // double the speed of the biplane object
-  biplane.setSpeed(biplane.getSpeed() * 2)
+    biplane.setSpeed(biplane.getSpeed() * 2)
   } else {
     // If the speed of the boeing object is not greater than NUMBER_5000,
     // accelerate the boeing object again
     boeing.accelerate()
   }
 
-    counter++; // Increment the counter
+  counter++; // Increment the counter
 }
 
 boeing.setSpeed(424)
