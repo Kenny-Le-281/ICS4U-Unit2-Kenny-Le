@@ -14,7 +14,7 @@ public class Jet extends Airplane {
     /**
      * Sets the jet's speed multiplier.
     */
-    private static int MULTIPLIER = 2;
+    private static int multiplier = 2;
 
     /**
      * Creates the base jet.
@@ -29,13 +29,13 @@ public class Jet extends Airplane {
      * @param newSpeed of the jet
     */
     public void setSpeed(int newSpeed) {
-        super.setSpeed(newSpeed * this.MULTIPLIER);
+        super.setSpeed(newSpeed * Jet.MULTIPLIER);
     }
 
     /**
      * Accelerates the jet, changing speed.
     */
     public void accelerate() {
-        super.setSpeed(this.getSpeed() * this.MULTIPLIER);
+        super.setSpeed(this.getSpeed() * Jet.MULTIPLIER);
     }
 }

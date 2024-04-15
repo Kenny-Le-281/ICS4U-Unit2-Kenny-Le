@@ -1,4 +1,3 @@
-
 /*
 * This program uses classes to make a jet and an airplane
 *
@@ -65,20 +64,21 @@ final class FlyTest {
         while (counter < maxCounter) {
             boeing.accelerate();
             System.out.println(boeing.getSpeed());
-            
+
             if (boeing.getSpeed() > NUMBER5000) {
-                // If the speed of the boeing object is greater than NUMBER5000,
+                // If the speed of the boeing object is greater than 5000
                 // double the speed of the biplane object
                 biplane.setSpeed(biplane.getSpeed() * 2);
             } else {
-                // If the speed of the boeing object is not greater than NUMBER5000,
+                // If the speed of the boeing object is not greater 5000
                 // accelerate the boeing object again
                 boeing.accelerate();
             }
-    
-            counter++; // Increment the counter
+
+            // Increment the counter
+            counter++;
         }
-        
+
         boeing.setSpeed(THIRDSPEED);
         boeing.accelerate();
         System.out.println(boeing.getSpeed());

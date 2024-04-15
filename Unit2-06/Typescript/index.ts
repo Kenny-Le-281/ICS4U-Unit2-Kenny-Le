@@ -27,11 +27,11 @@ while (counter < 4) {
   console.log(boeing.getSpeed())
 
   if (boeing.getSpeed() > 5000) {
-  // If the speed of the boeing object is greater than NUMBER_5000,
+  // If the speed of the boeing object is greater than 5000
   // double the speed of the biplane object
     biplane.setSpeed(biplane.getSpeed() * 2)
   } else {
-    // If the speed of the boeing object is not greater than NUMBER_5000,
+    // If the speed of the boeing object is not greater than 5000
     // accelerate the boeing object again
     boeing.accelerate()
   }
