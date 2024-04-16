@@ -35,8 +35,6 @@ public class Vehicle {
      * Creates the base vehicle.
      *
      * @param initialColour the base colour
-     * @param initialPlateNumber the base license plate number
-     * @param initialDoors the number of doors
      * @param initialMaxSpeed the maximum speed of the vehicle
     */
     public Vehicle(String initialColour, double initialMaxSpeed) {

@@ -20,12 +20,13 @@ public class Truck extends Vehicle {
     /**
      * Creates the base truck.
      *
-     * @param startColour the base colour
-     * @param startPlateNumber the base license plate number
-     * @param startMaxSpeed the maximum speed of the vehicle
+     * @param initialColour the base colour
+     * @param initialPlateNumber the base license plate number
+     * @param initialMaxSpeed the maximum speed of the vehicle
     */
     public Truck(
-            String initialColour, double initialMaxSpeed, String initialPlateNumber
+            String initialColour, double initialMaxSpeed, 
+            String initialPlateNumber
     ) {
         super(initialColour, initialMaxSpeed);
         this.licensePlateNumber = initialPlateNumber;
