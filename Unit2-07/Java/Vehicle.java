@@ -80,9 +80,9 @@ public class Vehicle {
     */
     public String getStatus() {
         final String breakLine = "\n";
-        String status = " -> Speed: " + this.speed + lineBreak;
-        status += " -> MaxSpeed: " + this.maxSpeed + lineBreak;
-        status += " -> Color: " + this.colour + lineBreak;
+        String status = " -> Speed: " + this.speed + breakLine;
+        status += " -> MaxSpeed: " + this.maxSpeed + breakLine;
+        status += " -> Color: " + this.colour + breakLine;
 
         return status;
     }

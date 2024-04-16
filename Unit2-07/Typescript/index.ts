@@ -14,7 +14,7 @@ const bmx = new Bike('Red', 40)
 console.log('Created Bmx bike.\nStatus:')
 console.log(bmx.status)
 
-console.log('\nSet the cadense to 10')
+console.log('\nSet the cadence to 10')
 bmx.cadence = 10
 bmx.speed = 20
 console.log(bmx.status)
