@@ -25,7 +25,8 @@ public class Truck extends Vehicle {
      * @param initialMaxSpeed the maximum speed of the vehicle
     */
     public Truck(
-            String initialColour, double initialMaxSpeed, 
+            String initialColour,
+            double initialMaxSpeed,
             String initialPlateNumber
     ) {
         super(initialColour, initialMaxSpeed);
