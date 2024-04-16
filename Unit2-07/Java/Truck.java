@@ -25,10 +25,10 @@ public class Truck extends Vehicle {
      * @param startMaxSpeed the maximum speed of the vehicle
     */
     public Truck(
-            String startColour, double startMaxSpeed, String startPlateNumber
+            String initialColour, double initialMaxSpeed, String initialPlateNumber
     ) {
-        super(startColour, startMaxSpeed);
-        this.licensePlateNumber = startPlateNumber;
+        super(initialColour, initialMaxSpeed);
+        this.licensePlateNumber = initialPlateNumber;
     }
 
     /**

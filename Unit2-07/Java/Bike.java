@@ -20,11 +20,11 @@ public class Bike extends Vehicle {
     /**
      * Creates the base truck.
      *
-     * @param startColour the base colour
-     * @param startMaxSpeed the maximum speed of the vehicle
+     * @param initialColour the base colour
+     * @param initialMaxSpeed the maximum speed of the vehicle
     */
-    public Bike(String startColour, double startMaxSpeed) {
-        super(startColour, startMaxSpeed);
+    public Bike(String initialColour, double initialMaxSpeed) {
+        super(initialColour, initialMaxSpeed);
         this.cadence = 0;
     }
 
