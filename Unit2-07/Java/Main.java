@@ -38,7 +38,7 @@ final class Main {
         System.out.println("Created Bmx bike.\nStatus:");
         System.out.println(bmx.getStatus());
 
-        System.out.println("\nSet the cadense to 10");
+        System.out.println("\nSet the cadence to 10");
         bmx.setCadence(speedMod);
         System.out.println(bmx.getStatus());
 
