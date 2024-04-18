@@ -1,0 +1,232 @@
+
+<mxfile host="65bd71144e">
+    <diagram id="5gMrNbhCcvMap2-kCo8e" name="Page-1">
+        <mxGraphModel dx="418" dy="330" grid="1" gridSize="5" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+            <root>
+                <mxCell id="0"/>
+                <mxCell id="1" parent="0"/>
+                <mxCell id="65" style="edgeStyle=none;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="66" target="69" edge="1">
+                    <mxGeometry relative="1" as="geometry">
+                        <mxPoint x="110" y="190" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="66" value="Start" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.start_1;whiteSpace=wrap;" parent="1" vertex="1">
+                    <mxGeometry x="40" y="80" width="100" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="67" value="Stop" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.start_1;whiteSpace=wrap;" parent="1" vertex="1">
+                    <mxGeometry x="180" y="80" width="100" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="173" style="edgeStyle=none;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontSize=14;" parent="1" source="69" edge="1">
+                    <mxGeometry relative="1" as="geometry">
+                        <mxPoint x="191.5000000000001" y="210" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="69" value="Get cadence" style="shape=parallelogram;html=1;strokeWidth=2;perimeter=parallelogramPerimeter;whiteSpace=wrap;rounded=1;arcSize=12;size=0.23;fontSize=12;" parent="1" vertex="1">
+                    <mxGeometry x="40" y="180" width="100" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="72" value="get cadence" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
+                    <mxGeometry x="126" y="35" width="90" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="175" style="edgeStyle=none;html=1;fontSize=8;" parent="1" source="174" target="67" edge="1">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="174" value="return&lt;br style=&quot;font-size: 11px;&quot;&gt;this.cadence" style="shape=parallelogram;html=1;strokeWidth=2;perimeter=parallelogramPerimeter;whiteSpace=wrap;rounded=1;arcSize=12;size=0.23;fontSize=11;" parent="1" vertex="1">
+                    <mxGeometry x="180" y="180" width="100" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="268" style="edgeStyle=none;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontSize=12;" parent="1" edge="1">
+                    <mxGeometry relative="1" as="geometry">
+                        <mxPoint x="370" y="340" as="sourcePoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="270" style="edgeStyle=none;html=1;fontSize=12;" parent="1" edge="1">
+                    <mxGeometry relative="1" as="geometry">
+                        <mxPoint x="408.5000000000001" y="410" as="sourcePoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="278" style="edgeStyle=none;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontSize=9;" parent="1" edge="1">
+                    <mxGeometry relative="1" as="geometry">
+                        <mxPoint x="559.5" y="210" as="sourcePoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="302" value="&lt;b&gt;Bike&amp;nbsp;extends Vehicle&lt;br&gt;&lt;/b&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
+                    <mxGeometry width="140" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="324" style="edgeStyle=none;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="325" target="328" edge="1">
+                    <mxGeometry relative="1" as="geometry">
+                        <mxPoint x="670" y="190" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="325" value="Start" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.start_1;whiteSpace=wrap;" parent="1" vertex="1">
+                    <mxGeometry x="600" y="80" width="100" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="326" value="Stop" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.start_1;whiteSpace=wrap;" parent="1" vertex="1">
+                    <mxGeometry x="740" y="80" width="100" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="333" style="edgeStyle=none;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontSize=10;" parent="1" source="328" target="332" edge="1">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="328" value="Get speed" style="shape=parallelogram;html=1;strokeWidth=2;perimeter=parallelogramPerimeter;whiteSpace=wrap;rounded=1;arcSize=12;size=0.23;fontSize=12;" parent="1" vertex="1">
+                    <mxGeometry x="600" y="180" width="100" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="329" value="get status" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
+                    <mxGeometry x="693" y="35" width="75" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="330" style="edgeStyle=none;html=1;fontSize=8;" parent="1" source="331" target="326" edge="1">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="331" value="return&lt;br style=&quot;font-size: 12px;&quot;&gt;statusString" style="shape=parallelogram;html=1;strokeWidth=2;perimeter=parallelogramPerimeter;whiteSpace=wrap;rounded=1;arcSize=12;size=0.23;fontSize=12;" parent="1" vertex="1">
+                    <mxGeometry x="740" y="180" width="100" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="335" style="edgeStyle=none;html=1;fontSize=10;" parent="1" source="332" target="334" edge="1">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="332" value="Get&lt;br&gt;maxSpeed" style="shape=parallelogram;html=1;strokeWidth=2;perimeter=parallelogramPerimeter;whiteSpace=wrap;rounded=1;arcSize=12;size=0.23;fontSize=12;" parent="1" vertex="1">
+                    <mxGeometry x="600" y="280" width="100" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="411" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;strokeColor=default;fontSize=11;" parent="1" source="334" target="409" edge="1">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="334" value="Get colour" style="shape=parallelogram;html=1;strokeWidth=2;perimeter=parallelogramPerimeter;whiteSpace=wrap;rounded=1;arcSize=12;size=0.23;fontSize=12;" parent="1" vertex="1">
+                    <mxGeometry x="600" y="380" width="100" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="414" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;strokeColor=default;fontSize=11;" parent="1" source="336" target="339" edge="1">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="336" value="statusString = ` -&amp;gt; Speed: ${this.speed}\n`" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;fontSize=12;" parent="1" vertex="1">
+                    <mxGeometry x="740" y="480" width="100" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="343" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;fontSize=11;" parent="1" source="339" target="340" edge="1">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="339" value="statusString = ` -&amp;gt; MaxSpeed: ${this.maxSpeed}\n`" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;fontSize=11;" parent="1" vertex="1">
+                    <mxGeometry x="740" y="380" width="100" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="341" style="edgeStyle=none;html=1;fontSize=11;" parent="1" source="340" target="331" edge="1">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="340" value="statusString = ` -&amp;gt; Color: ${this.colour}`" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;fontSize=12;" parent="1" vertex="1">
+                    <mxGeometry x="740" y="280" width="100" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="395" style="edgeStyle=none;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="396" target="399" edge="1">
+                    <mxGeometry relative="1" as="geometry">
+                        <mxPoint x="390" y="190" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="396" value="Start" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.start_1;whiteSpace=wrap;" parent="1" vertex="1">
+                    <mxGeometry x="320" y="80" width="100" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="397" value="Stop" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.start_1;whiteSpace=wrap;" parent="1" vertex="1">
+                    <mxGeometry x="460" y="80" width="100" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="406" style="edgeStyle=none;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontSize=8;" parent="1" source="399" target="405" edge="1">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="399" value="&lt;span style=&quot;font-size: 11px;&quot;&gt;Get&lt;/span&gt;&lt;br style=&quot;font-size: 11px;&quot;&gt;&lt;span style=&quot;font-size: 11px;&quot;&gt;cadence&lt;/span&gt;" style="shape=parallelogram;html=1;strokeWidth=2;perimeter=parallelogramPerimeter;whiteSpace=wrap;rounded=1;arcSize=12;size=0.23;fontSize=12;" parent="1" vertex="1">
+                    <mxGeometry x="320" y="180" width="100" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="400" value="set cadence" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
+                    <mxGeometry x="409" y="35" width="85" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="408" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;entryPerimeter=0;strokeColor=default;fontSize=8;" parent="1" source="403" target="397" edge="1">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="403" value="this.cadence&lt;br&gt;= newCadence" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;fontSize=12;" parent="1" vertex="1">
+                    <mxGeometry x="460" y="180" width="100" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="407" style="edgeStyle=orthogonalEdgeStyle;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;fontSize=8;strokeColor=default;rounded=0;" parent="1" source="405" target="403" edge="1">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="405" value="Get &lt;br style=&quot;font-size: 11px;&quot;&gt;newCadence" style="shape=parallelogram;html=1;strokeWidth=2;perimeter=parallelogramPerimeter;whiteSpace=wrap;rounded=1;arcSize=12;size=0.23;fontSize=11;" parent="1" vertex="1">
+                    <mxGeometry x="320" y="280" width="100" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="412" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;strokeColor=default;fontSize=11;" parent="1" source="409" target="410" edge="1">
+                    <mxGeometry relative="1" as="geometry">
+                        <Array as="points">
+                            <mxPoint x="650" y="610"/>
+                        </Array>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="409" value="Get&lt;br style=&quot;font-size: 11px;&quot;&gt;plateNumber" style="shape=parallelogram;html=1;strokeWidth=2;perimeter=parallelogramPerimeter;whiteSpace=wrap;rounded=1;arcSize=12;size=0.23;fontSize=11;" parent="1" vertex="1">
+                    <mxGeometry x="600" y="480" width="100" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="413" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;strokeColor=default;fontSize=11;" parent="1" source="410" target="336" edge="1">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="410" value="statusString += ` -&amp;gt; Cadence: ${this.cadence}`" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;fontSize=10;" parent="1" vertex="1">
+                    <mxGeometry x="740" y="580" width="100" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="415" style="edgeStyle=none;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="416" target="419" edge="1">
+                    <mxGeometry relative="1" as="geometry">
+                        <mxPoint x="670" y="810" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="416" value="Start" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.start_1;whiteSpace=wrap;" parent="1" vertex="1">
+                    <mxGeometry x="600" y="700" width="100" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="417" value="Stop" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.start_1;whiteSpace=wrap;" parent="1" vertex="1">
+                    <mxGeometry x="740" y="700" width="100" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="424" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;strokeColor=default;fontSize=10;" parent="1" source="419" target="423" edge="1">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="419" value="Get speed" style="shape=parallelogram;html=1;strokeWidth=2;perimeter=parallelogramPerimeter;whiteSpace=wrap;rounded=1;arcSize=12;size=0.23;fontSize=11;" parent="1" vertex="1">
+                    <mxGeometry x="600" y="800" width="100" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="420" value="accelerate" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
+                    <mxGeometry x="692" y="655" width="80" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="421" style="edgeStyle=none;html=1;fontSize=8;" parent="1" target="417" edge="1">
+                    <mxGeometry relative="1" as="geometry">
+                        <mxPoint x="790" y="799.9999999999999" as="sourcePoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="427" style="edgeStyle=none;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontSize=11;" edge="1" parent="1" source="423" target="426">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="423" value="Get&lt;br&gt;cadence" style="shape=parallelogram;html=1;strokeWidth=2;perimeter=parallelogramPerimeter;whiteSpace=wrap;rounded=1;arcSize=12;size=0.23;fontSize=11;" parent="1" vertex="1">
+                    <mxGeometry x="600" y="900" width="100" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="425" value="this.speed = this.speed + appliedNumber + appliedNumber" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;fontSize=12;" parent="1" vertex="1">
+                    <mxGeometry x="740" y="800" width="100" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="429" style="edgeStyle=orthogonalEdgeStyle;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;fontSize=11;rounded=0;" edge="1" parent="1" source="426" target="428">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="426" value="Get&lt;br&gt;appliedNumber" style="shape=parallelogram;html=1;strokeWidth=2;perimeter=parallelogramPerimeter;whiteSpace=wrap;rounded=1;arcSize=12;size=0.23;fontSize=11;" vertex="1" parent="1">
+                    <mxGeometry x="600" y="1000" width="100" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="430" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;fontSize=11;" edge="1" parent="1" source="428" target="425">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="428" value="this.cadence = this.cadence + appliedNumber" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;fontSize=12;" vertex="1" parent="1">
+                    <mxGeometry x="740" y="900" width="100" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="431" style="edgeStyle=orthogonalEdgeStyle;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;rounded=0;" edge="1" parent="1" source="432" target="440">
+                    <mxGeometry relative="1" as="geometry">
+                        <mxPoint x="370" y="800" as="targetPoint"/>
+                        <Array as="points">
+                            <mxPoint x="370" y="830"/>
+                        </Array>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="432" value="Start" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.start_1;whiteSpace=wrap;" vertex="1" parent="1">
+                    <mxGeometry x="320" y="700" width="100" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="433" value="Stop" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.start_1;whiteSpace=wrap;" vertex="1" parent="1">
+                    <mxGeometry x="460" y="700" width="100" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="436" value="ringBell" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+                    <mxGeometry x="420" y="655" width="65" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="437" style="edgeStyle=none;html=1;fontSize=8;" edge="1" parent="1" target="433">
+                    <mxGeometry relative="1" as="geometry">
+                        <mxPoint x="510" y="800" as="sourcePoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="440" value="console.log(&lt;br&gt;&quot;Ding ding!\n&quot;)" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;fontSize=12;" vertex="1" parent="1">
+                    <mxGeometry x="460" y="800" width="100" height="60" as="geometry"/>
+                </mxCell>
+            </root>
+        </mxGraphModel>
+    </diagram>
+</mxfile>
