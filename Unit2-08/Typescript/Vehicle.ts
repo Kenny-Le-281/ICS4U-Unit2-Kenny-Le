@@ -19,10 +19,11 @@ export class Vehicle {
     protected wheels: number
   
     // Creates the base vehicle
-    public constructor(initialColour: string, initialMaxSpeed: number) {
+    public constructor(initialColour: string, initialMaxSpeed: number, initialWheels: number) {
       this.colour = initialColour
       this.speed = 0
       this.maxSpeed = initialMaxSpeed
+      this.wheels = initialWheels
     }
   
     // Gets the colour of the vehicle
@@ -51,6 +52,7 @@ export class Vehicle {
       statusString = ` -> Speed: ${this.speed}\n`
       statusString += ` -> MaxSpeed: ${this.maxSpeed}\n`
       statusString += ` -> Color: ${this.colour}`
+      statusString += ` -> Number of Wheels: ${this.wheels}`
   
       return statusString
     }
