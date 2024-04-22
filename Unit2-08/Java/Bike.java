@@ -7,7 +7,7 @@
 */
 
 /**
- * This is the class.
+ * This is the Bike class.
 */
 public class Bike extends Vehicle {
     /**
