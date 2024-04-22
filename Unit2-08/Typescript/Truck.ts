@@ -42,4 +42,9 @@ export class Truck extends Vehicle {
     return statusString
   }
 
+  // Provides air to the wheels of the truck
+  public applyAir(airPressure: number) {
+    this.speed = this.speed - airPressure / 2
+  }
+
 }
