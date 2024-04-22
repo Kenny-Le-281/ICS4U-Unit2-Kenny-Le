@@ -12,11 +12,11 @@ import { Vehicle } from './Vehicle'
 export class Bike extends Vehicle {
   // Class variables
   private cadence: number
-  private static readonly NUMBER_WHEELS: number = 2
+  private NUMBER_WHEELS: number = 2
 
   // Creates the base bike
   public constructor(startColour: string, startMaxSpeed: number) {
-    super(startColour, startMaxSpeed, this.NUMBER_WHEELS)
+    super(startColour, startMaxSpeed, Bike.NUMBER_WHEELS)
     this.cadence = 0
   }
 
