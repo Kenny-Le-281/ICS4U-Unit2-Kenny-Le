@@ -12,7 +12,8 @@ import { Vehicle } from './Vehicle'
 export class Bike extends Vehicle {
   // Class variables
   private cadence: number
-  private NUMBER_WHEELS: number = 2
+  // # of wheels can't be changed once initialized
+  private static readonly NUMBER_WHEELS: number = 2
 
   // Creates the base bike
   public constructor(startColour: string, startMaxSpeed: number) {
