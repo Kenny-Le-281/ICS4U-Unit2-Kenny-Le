@@ -8,7 +8,7 @@
 */
 
 /**
- * This is the class.
+ * This is the Vehicle class.
 */
 public class Vehicle {
     /**
@@ -16,28 +16,28 @@ public class Vehicle {
      *
      * @param colour of the vehicle
     */
-    private String colour = "";
+    protected String colour = "";
 
     /**
      * Variables for the class.
      *
      * @param speed of the vehicle
     */
-    private double speed;
+    protected double speed;
 
     /**
      * Variables for the class.
      *
      * @param maxSpeed of the vehicle
     */
-    private double maxSpeed;
+    protected double maxSpeed;
 
     /**
      * Variables for the class.
      *
      * @param wheels on the vehicle
     */
-    private int wheels;
+    protected int wheels;
 
     /**
      * Creates the base vehicle.
