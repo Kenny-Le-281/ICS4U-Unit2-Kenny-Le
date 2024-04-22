@@ -13,7 +13,7 @@ export class Truck extends Vehicle {
   // Class variables
   private plateNumber: string
   // # of wheels can't be changed once initialized
-  private static readonly NUMBER_WHEELS: number = 2
+  private static readonly NUMBER_WHEELS: number = 4
 
   // Creates the base truck
   public constructor(startColour: string, startMaxSpeed: number, startPlateNumber: string) {
