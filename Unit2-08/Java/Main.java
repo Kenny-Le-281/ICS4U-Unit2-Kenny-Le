@@ -1,4 +1,3 @@
-
 /*
 * This program uses a vehicle class to make two different vehicles
 *
@@ -8,7 +7,7 @@
 */
 
 /**
-* This program uses the vehicle class.
+* This is the program.
 */
 final class Main {
     /**
@@ -39,15 +38,34 @@ final class Main {
         System.out.println("Created Bmx bike.\nStatus:");
         System.out.println(bmx.getStatus());
 
+        System.out.println("\nSet the cadence to 10");
+        bmx.setCadence(speedMod);
+        System.out.println(bmx.getStatus());
+
+        System.out.println("\nAccelerate by 15:");
+        bmx.accelerate(speedModTwo);
+        System.out.println(bmx.getStatus());
+
+        System.out.println("\nRinging bell.");
+        bmx.ringBell();
+
         // Add big truck
         final Truck bigTruck = new Truck("Grey", 200, "HGC-3456F");
-        System.out.println("Created a Big Truck.\nStatus:");
+
+        System.out.println("Created a Truck.\nStatus:");
         System.out.println(bigTruck.getStatus());
 
-        // Add small truck
-        final Truck smallTruck = new Truck("Black", 100, "CDA-3214F");
-        System.out.println("Created a Small Truck.\nStatus:");
-        System.out.println(smallTruck.getStatus());
+        System.out.println("\nAccelerating, 10 of power for ten seconds:");
+        bigTruck.accelerate(speedMod, speedMod);
+        System.out.println(newSpeedText + bigTruck.getSpeed());
+
+        System.out.println("\nBreaking, 10 of power for 10 sec.");
+        bigTruck.accelerate(speedMod, speedMod);
+        System.out.println(newSpeedText + bigTruck.getSpeed());
+
+        System.out.println("\nApplyed air pressure of 10:");
+        bigTruck.applyAir(speedMod);
+        System.out.println(newSpeedText + bigTruck.getSpeed());
 
         // Show the program as done
         System.out.println("\nDone.");
