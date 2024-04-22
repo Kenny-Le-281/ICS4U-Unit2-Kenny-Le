@@ -46,7 +46,7 @@ public class Vehicle {
      * @param initialMaxSpeed the maximum speed of the vehicle
      * @param initialWheels the number of wheels on the vehicle
     */
-    public Vehicle(String initialColour, double initialMaxSpeed, 
+    public Vehicle(String initialColour, double initialMaxSpeed,
                     int initialWheels) {
         this.colour = initialColour;
         this.speed = 0;
