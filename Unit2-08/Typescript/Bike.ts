@@ -15,7 +15,7 @@ export class Bike extends Vehicle {
 
   // Creates the base bike
   public constructor(startColour: string, startMaxSpeed: number) {
-    super(startColour, startMaxSpeed)
+    super(startColour, startMaxSpeed, 2)
     this.cadence = 0
   }
 
