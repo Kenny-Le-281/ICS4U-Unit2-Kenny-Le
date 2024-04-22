@@ -15,7 +15,7 @@ public class Truck extends Vehicle {
      * This constant stores the total number of wheels that the vehicle has.
     */
     private static final int NUMBER_OF_WHEELS = 4;
-    
+
     /**
      * Variable for the class.
      *

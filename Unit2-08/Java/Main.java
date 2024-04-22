@@ -8,7 +8,7 @@
 */
 
 /**
-* This program uses the vehicle class
+* This program uses the vehicle class.
 */
 final class Main {
     /**
