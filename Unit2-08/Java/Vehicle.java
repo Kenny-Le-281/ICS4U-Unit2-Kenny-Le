@@ -98,7 +98,7 @@ public class Vehicle {
         String status = " -> Speed: " + this.speed + breakLine;
         status += " -> MaxSpeed: " + this.maxSpeed + breakLine;
         status += " -> Color: " + this.colour + breakLine;
-        status += " -> Number of Wheels: " + this.wheels + lineBreak;
+        status += " -> Number of Wheels: " + this.wheels + breakLine;
 
         return status;
     }
