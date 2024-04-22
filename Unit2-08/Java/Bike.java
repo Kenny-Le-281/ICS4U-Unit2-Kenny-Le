@@ -54,7 +54,7 @@ public class Bike extends Vehicle {
         status += " -> MaxSpeed: " + this.getMaxSpeed() + breakLine;
         status += " -> Color: " + this.getColour() + breakLine;
         status += " -> Cadence: " + this.cadence + breakLine;
-        status += " -> # of Wheels: " + this.getWheels() + breakLine;
+        status += " -> Number of Wheels: " + this.getWheels() + breakLine;
 
         return status;
     }

@@ -59,7 +59,7 @@ public class Truck extends Vehicle {
         status += " -> MaxSpeed: " + this.getMaxSpeed() + breakLine;
         status += " -> Color: " + this.getColour() + breakLine;
         status += " -> License Plate: " + this.licensePlateNumber + breakLine;
-        status += " -> # of Wheels: " + this.getWheels() + breakLine;
+        status += " -> Number of Wheels: " + this.getWheels() + breakLine;
 
         return status;
     }
