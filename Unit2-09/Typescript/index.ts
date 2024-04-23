@@ -32,16 +32,20 @@ const bigTruck = new Truck('Grey', 200, 'HGC-3456F')
 console.log('Created a Truck.\nStatus:')
 console.log(bigTruck.status)
 
+// Example 1
 console.log('\nAccelerating, 10 of power for ten seconds:')
 bigTruck.accelerate(10, 10)
 console.log('New speed: ' + bigTruck.speed)
-
-console.log('\nBreaking, 10 of power for 10 sec.')
-bigTruck.accelerate(10, 10)
+console.log('Braking the truck with a power of 10, air pressure of 10 for 10 seconds')
+bigTruck.brake(10, 10, 10)
 console.log('New speed: ' + bigTruck.speed)
 
-console.log('\nApplyed air pressure of 10:')
-bigTruck.applyAir(10)
+// Example 2
+console.log('\nAccelerating, 20 of power for ten seconds:')
+bigTruck.accelerate(20, 10)
+console.log('New speed: ' + bigTruck.speed)
+console.log('Braking the truck with a power of 4 with air pressure of 10 for 10 seconds')
+bigTruck.brake(4, 10, 10)
 console.log('New speed: ' + bigTruck.speed)
 
 console.log('\nDone.')
