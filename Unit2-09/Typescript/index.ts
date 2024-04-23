@@ -34,7 +34,7 @@ console.log(bigTruck.status)
 
 // Test 1
 console.log('\nAccelerating the truck with a power of 20 for 10 seconds')
-bigTruck.accelerate(20, 10)
+bigTruck.accelerate(30, 20)
 console.log(`New speed: ${bigTruck.speed}`)
 console.log('Braking the truck with a power of 10, air pressure of 10 for 10 seconds')
 bigTruck.brake(10, 10, 10)
