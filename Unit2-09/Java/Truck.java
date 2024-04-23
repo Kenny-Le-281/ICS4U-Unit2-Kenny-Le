@@ -74,11 +74,19 @@ public class Truck extends Vehicle {
     }
 
     /**
-     * Provides air the the wheels of the truck, which changes speed.
+     * Brakes the truck, changing speed.
      *
+     * @param brakePower of the brake
+     * @param brakeTime of the brake
      * @param airPressure applied to the truck
     */
-    public void applyAir(double airPressure) {
-        this.setSpeed(this.getSpeed() - airPressure / 2);
+    public void brake(
+            double brakePower, double brakeTime, double airPressure
+    ) {
+        this.setSpeed(this.getSpeed() - (brakePower * brakeTime) 
+                        - (airPressure * brakeTime));
+        if (this.getSpeed() < 0) {
+            this.setSpeed(0);
+        }
     }
 }
