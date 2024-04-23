@@ -27,21 +27,30 @@ console.log(bmx.status)
 console.log('\nRinging bell.')
 bmx.ringBell()
 
+// Create a big truck
 const bigTruck = new Truck('Grey', 200, 'HGC-3456F')
-
-console.log('Created a Truck.\nStatus:')
+console.log('\nCreated a Big Truck.\nStatus:')
 console.log(bigTruck.status)
 
-console.log('\nAccelerating, 10 of power for ten seconds:')
-bigTruck.accelerate(10, 10)
-console.log('New speed: ' + bigTruck.speed)
+// Test 1
+console.log('\nAccelerating the truck with a power of 20 for 10 seconds')
+bigTruck.accelerate(20, 10)
+console.log(`New speed: ${bigTruck.speed}`)
+console.log('Braking the truck with a power of 10, air pressure of 10 for 10 seconds')
+bigTruck.brake(10, 10, 10)
+console.log(`New speed: ${bigTruck.speed}`)
 
-console.log('\nBreaking, 10 of power for 10 sec.')
-bigTruck.accelerate(10, 10)
-console.log('New speed: ' + bigTruck.speed)
+// Test 2
+console.log('\nAccelerating the truck with a power of 30 for 10 seconds')
+bigTruck.accelerate(30, 10)
+console.log(`New speed: ${bigTruck.speed}`)
+console.log('Braking the truck with a power of 2, air pressure of 10 for 10 seconds')
+bigTruck.brake(2, 10, 10)
+console.log(`New speed: ${bigTruck.speed}`)
 
-console.log('\nApplyed air pressure of 10:')
-bigTruck.applyAir(10)
-console.log('New speed: ' + bigTruck.speed)
+// Test 3
+console.log('\nBraking the truck with a power of 10, air pressure of 10 for 10 seconds')
+bigTruck.brake(10, 10, 10)
+console.log(`New speed: ${bigTruck.speed}`)
 
 console.log('\nDone.')
