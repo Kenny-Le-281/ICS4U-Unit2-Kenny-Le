@@ -56,16 +56,27 @@ final class Main {
         System.out.println(bigTruck.getStatus());
 
         System.out.println("\nAccelerating, 10 of power for ten seconds:");
-        bigTruck.accelerate(speedMod, speedMod);
-        System.out.println(newSpeedText + bigTruck.getSpeed());
+        bigTruck.accelerate(10, 10);
+        System.out.println("New speed: " + bigTruck.getSpeed());
+        System.out.println("Braking the truck with a power of 10, air pressure of 10 for 10 seconds");
+        bigTruck.brake(10, 10, 10);
+        System.out.println("New speed: " + bigTruck.getSpeed());
 
-        System.out.println("\nBreaking, 10 of power for 10 sec.");
-        bigTruck.accelerate(speedMod, speedMod);
-        System.out.println(newSpeedText + bigTruck.getSpeed());
+        // Example 2
+        System.out.println("\nAccelerating, 20 of power for ten seconds:");
+        bigTruck.accelerate(20, 10);
+        System.out.println("New speed: " + bigTruck.getSpeed());
+        System.out.println("Braking the truck with a power of 4 with air pressure of 10 for 10 seconds");
+        bigTruck.brake(4, 10, 10);
+        System.out.println("New speed: " + bigTruck.getSpeed());
 
-        System.out.println("\nApplyed air pressure of 10:");
-        bigTruck.applyAir(speedMod);
-        System.out.println(newSpeedText + bigTruck.getSpeed());
+        // Example 3
+        System.out.println("\nAccelerating, 30 of power for ten seconds:");
+        bigTruck.accelerate(30, 10);
+        System.out.println("New speed: " + bigTruck.getSpeed());
+        System.out.println("Braking the truck with a power of 8 with air pressure of 10 for 10 seconds");
+        bigTruck.brake(8, 10, 10);
+        System.out.println("New speed: " + bigTruck.getSpeed());
 
         // Show the program as done
         System.out.println("\nDone.");
