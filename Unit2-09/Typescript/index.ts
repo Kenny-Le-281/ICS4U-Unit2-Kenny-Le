@@ -27,9 +27,9 @@ console.log(bmx.status)
 console.log('\nRinging bell.')
 bmx.ringBell()
 
-// Create a big truck
 const bigTruck = new Truck('Grey', 200, 'HGC-3456F')
-console.log('\nCreated a Big Truck.\nStatus:')
+
+console.log('Created a Truck.\nStatus:')
 console.log(bigTruck.status)
 
 console.log('\nAccelerating, 10 of power for ten seconds:')
@@ -40,8 +40,8 @@ console.log('\nBreaking, 10 of power for 10 sec.')
 bigTruck.accelerate(10, 10)
 console.log('New speed: ' + bigTruck.speed)
 
-console.log('\nBreaking of power 10, for 2 sec, Air pressure of 2:')
-bigTruck.break(10, 2, 2)
+console.log('\nApplyed air pressure of 10:')
+bigTruck.applyAir(10)
 console.log('New speed: ' + bigTruck.speed)
 
 console.log('\nDone.')
