@@ -73,16 +73,4 @@ export class Vehicle {
       console.log("Acceleration power and time must be positive numbers.")
     }
   }
-
-  // Brakes the car, changing the speed
-  public brake(brakePower: number, brakeTime: number) {
-    if (brakePower > 0 && brakeTime > 0) {
-      this.speed = this.speed - (brakePower * brakeTime)
-      if (this.speed < 0) {
-        this.speed = 0
-      }
-    } else {
-      console.log("Brake power and time must be positive numbers.")
-    }
-  }
 }
