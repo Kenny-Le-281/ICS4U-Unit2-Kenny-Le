@@ -45,7 +45,7 @@ console.log('\nAccelerating, 20 of power for ten seconds:')
 bigTruck.accelerate(20, 10)
 console.log('New speed: ' + bigTruck.speed)
 console.log('Braking the truck with a power of 4 with air pressure of 10 for 10 seconds')
-bigTruck.brake(4, 5, 10)
+bigTruck.brake(4, 10, 10)
 console.log('New speed: ' + bigTruck.speed)
 
 // Example 3
