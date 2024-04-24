@@ -44,7 +44,11 @@ export class Truck extends Vehicle {
 
   // Brakes the truck and changes speed
   public break(breakPower: number, breakTime: number, airPressure: number): void {
+    console.log(breakPower)
+    console.log(breakTime)
+    console.log(airPressure)
     this._speed = this._speed - (breakPower * breakTime) - (airPressure * breakTime)
+    console.log(this._speed)
     console.log("truck")
     if (this.speed < 0) {
       this.speed = 0 // Ensure speed doesn't go below zero
