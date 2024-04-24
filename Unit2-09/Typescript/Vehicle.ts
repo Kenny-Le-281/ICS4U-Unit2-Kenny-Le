@@ -78,6 +78,7 @@ export class Vehicle {
   public brake(brakePower: number, brakeTime: number) {
     if (brakePower > 0 && brakeTime > 0) {
       this.speed = this.speed - (brakePower * brakeTime)
+	  console.log("vehicle")
       if (this.speed < 0) {
         this.speed = 0
       }
