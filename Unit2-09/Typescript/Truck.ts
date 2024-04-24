@@ -48,7 +48,7 @@ export class Truck extends Vehicle {
     console.log(breakTime)
     console.log(airPressure)
     this._speed = this._speed - (breakPower * breakTime) - (airPressure * breakTime)
-    console.log(speed)
+    console.log(this._speed)
     console.log("truck")
     if (this.speed < 0) {
       this.speed = 0 // Ensure speed doesn't go below zero
