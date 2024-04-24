@@ -75,10 +75,9 @@ export class Vehicle {
   }
 
   // Brakes the car, changing the speed
-  public brake(brakePower: number, brakeTime: number) {
+  public brake(breakPower: number, breakTime: number, airPressure: number): void {
     if (brakePower > 0 && brakeTime > 0) {
-		console.log("vehivl")
-      this.speed = this.speed - (brakePower * brakeTime)
+		this._speed = this._speed - (breakPower * breakTime) - (airPressure * breakTime)
       if (this.speed < 0) {
         this.speed = 0
       }
