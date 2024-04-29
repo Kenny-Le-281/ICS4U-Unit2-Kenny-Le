@@ -20,7 +20,7 @@ console.log(`\nCreated a BMX Bike.\nStatus:\n${bmxBike.status}`)
 
 // Create a car
 // This will not work as Vehicle is an abstract class
-//const car = new Vehicle("Blue", 100, 4)
-//console.log(`\nCreated a Car.\nStatus\n${car.status}`)
+const car = new Vehicle("Blue", 100, 4)
+console.log(`\nCreated a Car.\nStatus\n${car.status}`)
 
 console.log('\nDone.')
