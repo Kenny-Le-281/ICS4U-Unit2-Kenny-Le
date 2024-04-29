@@ -9,7 +9,7 @@
 /**
  * This is the class.
 */
-abstract class Vehicle {
+abstract class AbstractVehicle {
     /**
      * Variable for the class.
      *
