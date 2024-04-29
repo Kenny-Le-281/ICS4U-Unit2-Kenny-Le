@@ -1,0 +1,58 @@
+<mxfile host="65bd71144e">
+    <diagram id="5gMrNbhCcvMap2-kCo8e" name="Page-1">
+        <mxGraphModel dx="357" dy="347" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+            <root>
+                <mxCell id="0"/>
+                <mxCell id="1" parent="0"/>
+                <mxCell id="180" value="Vehicle" style="swimlane;fontStyle=3;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;" parent="1" vertex="1">
+                    <mxGeometry x="150" y="40" width="320" height="220" as="geometry">
+                        <mxRectangle x="40" y="40" width="110" height="30" as="alternateBounds"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="181" value="# _colour: string&#10;# _speed: number&#10;# _maxSpeed: number&#10;# _wheels: number" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="180" vertex="1">
+                    <mxGeometry y="26" width="320" height="64" as="geometry"/>
+                </mxCell>
+                <mxCell id="182" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=inherit;" parent="180" vertex="1">
+                    <mxGeometry y="90" width="320" height="8" as="geometry"/>
+                </mxCell>
+                <mxCell id="183" value="get colour(): string&#10;get speed(): number&#10;get maxSpeed(): number&#10;get wheels(): number&#10;get abstract status(): string&#10;set colour(newColour): void&#10;abstract accelerate(accelPower, accelTime): void&#10;abstract brake(brakePower, brakeTime, airPressure): void" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="180" vertex="1">
+                    <mxGeometry y="98" width="320" height="122" as="geometry"/>
+                </mxCell>
+                <mxCell id="188" style="edgeStyle=orthogonalEdgeStyle;html=1;entryX=0.502;entryY=1.004;entryDx=0;entryDy=0;entryPerimeter=0;rounded=0;" parent="1" source="184" target="183" edge="1">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="184" value="Bike" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;" parent="1" vertex="1">
+                    <mxGeometry x="40" y="320" width="220" height="150" as="geometry">
+                        <mxRectangle x="40" y="40" width="110" height="30" as="alternateBounds"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="185" value="- _cadence: number" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="184" vertex="1">
+                    <mxGeometry y="26" width="220" height="24" as="geometry"/>
+                </mxCell>
+                <mxCell id="186" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=inherit;" parent="184" vertex="1">
+                    <mxGeometry y="50" width="220" height="8" as="geometry"/>
+                </mxCell>
+                <mxCell id="187" value="+ get cadence(): number&#10;+ get status(): string&#10;+ set cadence(newCadence): void&#10;+ accelerate(appliedNumber): void&#10;+ brake(brakePower, brakeTime): void&#10;+ ringBell(): void" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="184" vertex="1">
+                    <mxGeometry y="58" width="220" height="92" as="geometry"/>
+                </mxCell>
+                <mxCell id="193" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;entryX=0.502;entryY=1.006;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" source="189" target="183" edge="1">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="189" value="Truck" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;" parent="1" vertex="1">
+                    <mxGeometry x="319" y="320" width="281" height="140" as="geometry">
+                        <mxRectangle x="40" y="40" width="110" height="30" as="alternateBounds"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="190" value="- _plateNumber: string" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="189" vertex="1">
+                    <mxGeometry y="26" width="281" height="24" as="geometry"/>
+                </mxCell>
+                <mxCell id="191" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=inherit;" parent="189" vertex="1">
+                    <mxGeometry y="50" width="281" height="8" as="geometry"/>
+                </mxCell>
+                <mxCell id="192" value="+ get plateNumber(): string&#10;+ get status(): string&#10;+ set plateNumber(newPlateNumber): void&#10;+ accelerate(accelPower, accelTime): void&#10;+ brake(brakePower, brakeTime, airPressure): void" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="189" vertex="1">
+                    <mxGeometry y="58" width="281" height="82" as="geometry"/>
+                </mxCell>
+            </root>
+        </mxGraphModel>
+    </diagram>
+</mxfile>
