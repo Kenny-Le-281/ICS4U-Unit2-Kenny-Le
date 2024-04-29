@@ -40,10 +40,13 @@ final class Main {
         System.out.println("Created a BMX Bike.\nStatus:");
         System.out.println(bmxBike.getStatus());
 
+        // Add Car
         // Should get an error since Vehicle is an abstract class
+        /*
         final AbstractVehicle car = new AbstractVehicle("Blue", 100, 4);
         System.out.println("Created a Car.\nStatus:");
         System.out.println(car.getStatus());
+        */
 
         // Show the program as done
         System.out.println("\nDone.");
