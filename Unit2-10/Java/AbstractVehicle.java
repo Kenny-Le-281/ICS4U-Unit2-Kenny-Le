@@ -45,7 +45,7 @@ abstract class AbstractVehicle {
      * @param startMaxSpeed the maximum speed of the vehicle
      * @param startWheels the number of wheels on the vehicle
     */
-    Vehicle(String startColour, double startMaxSpeed, int startWheels) {
+    AbstractVehicle(String startColour, double startMaxSpeed, int startWheels) {
         this.colour = startColour;
         this.speed = 0;
         this.maxSpeed = startMaxSpeed;
