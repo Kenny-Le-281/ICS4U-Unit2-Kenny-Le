@@ -2,7 +2,7 @@
 /*
 * This program uses a vehicle class to make two different vehicles
 *
-* @author  Cristiano Sellitto
+* @author  Kenny Le
 * @version 1.0
 * @since   2024-04-09
 */
